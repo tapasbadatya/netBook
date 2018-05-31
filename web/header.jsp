@@ -3,7 +3,7 @@
 
 
 
-<div class="row" >
+<div class="row" id="header">
   <nav class="navbar navbar-inverse navbar-fixed-top" style="border: none">
     <div class="container-fluid">
       <div id="app-title" class="app-title" align="right"><img src="images/logo.jpg"> netBook</div>

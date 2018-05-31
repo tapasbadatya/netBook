@@ -20,7 +20,6 @@
   <i class="fa fa-square"></i>
   <i class="fa fa-square-o"></i>
 
-
   <%--<div class="header">
 
   </div>
@@ -28,7 +27,7 @@
 
     <div class="app-logo-box">
       <div class="app-logo">
-        <i class="fa fa-stop"></i>
+        <i class="fa fa-stop"></i>jhgj
       </div>
       <div class="app-title">
         netBook

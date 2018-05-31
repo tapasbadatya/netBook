@@ -47,6 +47,13 @@
     top: -10px;
     transition: 1s;
 }
+
+.post-box .post-content video{
+    position: relative;
+    top: -10px;
+    transition: 1s;
+    width: 98%;
+}
 /*.post-content img:hover{
     opacity: 0.7;
 }*/

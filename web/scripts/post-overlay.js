@@ -29,6 +29,17 @@ var clPostOverlay = new function(){
         }
 
     }
+    this.showVideoOverlay = function(id){
+        document.getElementById("header").style.display="none";
+        document.getElementById("video-post-overlay").style.height = "100%";
+        var val = document.getElementById(id);
+        //document.getElementById("video-overlay").src = val.src;
+        //alert(val.src)
+    }
+    this.closeVideoOverlay = function(){
+        document.getElementById("header").style.display="block";
+        document.getElementById("video-post-overlay").style.height = "0%";
+    }
 
 };
 

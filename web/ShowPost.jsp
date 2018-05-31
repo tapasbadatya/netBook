@@ -201,7 +201,8 @@
         <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
       </div><br><br>
       <div class="post-content" align="center">
-        <img id="post5" src="images/bg2.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post4')">
+        <video autoplay muted loop id="post5" src="videos/myvideo.mp4" onclick="clPostOverlay.showVideoOverlay(this.id)">
+        </video>
       </div>
       <div class="post-status">
         <span>Wow...Nature is beautiful...</span>
