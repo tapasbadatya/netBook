@@ -21,7 +21,6 @@
   <i class="fa fa-square-o"></i>
 
 
-bijkbjkbjkbjkbjkbjkbvjhvjhvjhvjhvjvjhvjhvjhvjvhj
   <%--<div class="header">
 
   </div>
