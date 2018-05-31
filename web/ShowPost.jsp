@@ -194,6 +194,50 @@
 
     <div style="height: 10px"></div>
 
+
+
+    <div class="post-box">
+      <div class="post-profile">
+        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+      </div><br><br>
+      <div class="post-content" align="center">
+        <img id="post5" src="images/bg2.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post4')">
+      </div>
+      <div class="post-status">
+        <span>Wow...Nature is beautiful...</span>
+      </div>
+      <div class="actions" align="left">
+        <ul>
+          <li><i id="like5" class="fa fa-heart-o" onclick="Post.likeToggle('like5')"></i></li>
+          <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment5')"></i></li>
+          <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
+            <span class="social-share">
+              <i class="fa fa-facebook-square"></i>
+              <i class="fa fa-twitter-square"></i>
+              <i class="fa fa-google-plus-square"></i>
+              <i class="fa fa-linkedin-square"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="user-likes" align="left">
+        <i class="fa fa-heart"></i><span> Manas Ranjan, Ashish Raul</span>
+      </div>
+      <%--<div class="h-line"></div>--%>
+      <div class="comment-box" align="left">
+        <div class="user-comment">
+          <i class="fa fa-user-circle pic"></i><span class="name">Manas Ranjan</span>
+          <span class="comment">Nice pic bro !</span>
+          <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
+        </div>
+        <div class="write-comment">
+          <input id="comment5" type="text" placeholder="Write a comment here..." style="display: none">
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 10px"></div>
+
   </div>
 
   <div>

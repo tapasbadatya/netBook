@@ -79,7 +79,7 @@
           <img src="images/tapas.jpg" style="width:100%">
           <div class="container" align="left">
             <h5><b style="color: <%=color%>;position: relative;left: -16px">Tapas Kumar Badatya</b></h5>
-            <b style="position: relative;left: -16px">Java Developer</b>
+            <b style="position: relative;left: -16px"> with DAD's love </b>
           </div>
         </div>
       </div>
@@ -142,9 +142,9 @@
       </div>
       <div class="modal-footer">
         <div class="footer-options">
-          <i class="fa fa-columns"></i>
+          <button><i class="fa fa-columns"></i> Apply Compare</button>
+          <button type="button" class="btn btn-success" onclick="Upload.checkValidFile('filesId','gallery')">Post</button>
         </div>
-        <button type="button" class="btn btn-success" onclick="Upload.checkValidFile('filesId','gallery')">Post</button>
       </div>
     </div>
   </div>
