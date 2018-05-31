@@ -33,7 +33,7 @@
       </div>
       <div class="row" style="height: 100%">
         <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
-          <div class="ol-post-content">
+          <div class="ol-post-content" align="left">
             <div class="img-magnifier-container">
               <img id="myimage" src="images/bg5.jpg" class="img-responsive">
             </div>
