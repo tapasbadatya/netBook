@@ -201,11 +201,11 @@
         <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
       </div><br><br>
       <div class="post-content" align="center">
-        <video autoplay muted loop id="post5" src="videos/myvideo.mp4" onclick="clPostOverlay.showVideoOverlay(this.id)">
+        <video autoplay loop muted controls id="post5" src="videos/myvideo.mp4">
         </video>
       </div>
       <div class="post-status">
-        <span>Wow...Nature is beautiful...</span>
+        <span>Good Morning Friends</span>
       </div>
       <div class="actions" align="left">
         <ul>

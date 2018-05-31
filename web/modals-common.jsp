@@ -142,7 +142,7 @@
       </div>
       <div class="modal-footer">
         <div class="footer-options">
-          <button><i class="fa fa-columns"></i> Apply Compare</button>
+          <%--<button><i class="fa fa-columns"></i> Apply Compare</button>--%>
           <button type="button" class="btn btn-success" onclick="Upload.checkValidFile('filesId','gallery')">Post</button>
         </div>
       </div>

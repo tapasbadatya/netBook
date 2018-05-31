@@ -134,13 +134,17 @@
 --%>
 
 
-    <div id="video-post-overlay" class="overlay">
+   <%-- <div id="video-post-overlay" class="overlay">
         <a class="closebtn" onclick="clPostOverlay.closeVideoOverlay()">&times;</a>
         <div class="overlay-content">
             <video autoplay loop>
                 <source id="video-overlay" src="videos/myvideo.mp4" type="video/mp4">
             </video>
         </div>
-    </div>
+
+        &lt;%&ndash;<div class="content">
+            <button id="myBtn">Pause</button>
+        </div>&ndash;%&gt;
+    </div>--%>
 
 </center>

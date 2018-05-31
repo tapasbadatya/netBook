@@ -57,11 +57,20 @@
 /*.post-content img:hover{
     opacity: 0.7;
 }*/
-.post-box .post-content i{
+
+.post-box .post-content .btn{
+    position: relative;
+    /*top: -30px;*/
+}
+
+.post-box .post-content .btn i{
+    color: gray;
+}
+/*.post-box .post-content i{
     color: #666666;
     position: relative;
     top: -10px;
-}
+}*/
 .post-box .post-content label{
     font-size: 20px;
     position: relative;
