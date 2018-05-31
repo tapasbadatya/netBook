@@ -1,0 +1,338 @@
+
+#content-2{
+    position: relative;
+    top: -2px;
+    background: coral;
+}
+
+
+.search-input{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    border: none;
+}
+
+
+.chat-my-profile-box{
+    height: 55px;
+    width: 100%;
+    /*background-color: #00a930;*/
+    position: relative;
+    top: 65px;
+    /*border: 2px solid red;*/
+}
+.chat-my-profile-box .profile-pic img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    border: 2px solid white;
+
+}
+.chat-my-profile-box .profile-name span{
+    color: white;
+    position: relative;
+    left: 5px;
+    top: 10px;
+    font-size: 18px;
+}
+.chat-my-profile-box .setting{
+    position: absolute;
+    right: 0px;
+}
+.chat-my-profile-box .setting i{
+    font-size: 26px;
+    color: white;
+    position: relative;
+    top: -15px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.chat-my-profile-box .add-group{
+    position: absolute;
+    right: 20px;
+}
+.chat-my-profile-box .add-group i{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: -17px;
+    left: -10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.chat-search-box{
+    position: relative;
+    top: 65px;
+}
+.chat-search-box i{
+    font-size: 20px;
+    color: #cccccc;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+.chat-search-box input{
+    width: 90%;
+    background: none;
+    border: none;
+    /*border-bottom: 1px solid #cccccc;*/
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    padding-bottom: 3px;
+}
+.chat-friend-list-box{
+    position: absolute;
+    top: 150px;
+    height: 75%;
+    width: 93%;
+    /*background-color: #00a930;*/
+}
+
+
+.chat-content-header{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+.chat-content-header .profile-pic i{
+    font-size: 42px;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+.chat-content-header .profile-info{
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+.chat-content-header .profile-info .profile-name{
+    font-size: 16px;
+    color: white;
+}
+.chat-content-header .profile-info .last-seen{
+    font-size: 10px;
+    color: white;
+}
+.chat-content-body{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    overflow-y: scroll;
+}
+
+.chat-content-footer{
+    height: 60px;
+    width: 100%;
+    background-color: #00a930;
+    position: absolute;
+    bottom: 0px;
+}
+
+.chat-content-footer .chat-input textarea{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 10px;
+
+    border: none;
+    background: rgba(255, 248, 253, 0.18);
+    transition: 0.3s;
+}
+.chat-content-footer .chat-input textarea:hover{
+    background: white;
+}
+.chat-content-footer .chat-input textarea:active{
+    background: white;
+}
+
+.chat-content-footer i{
+    font-size: 28px;
+    color: rgba(255, 248, 253, 0.64);
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    top: 13px;
+}
+
+.chat-content-footer .emoji{
+    position: relative;
+    left: 15px;
+}
+
+.chat-content-footer .love{
+    position: relative;
+    left: -15px;
+}
+
+.chat-content-footer i:hover{
+    color: white;
+}
+.chat-content-footer i:active{
+    color: white;
+}
+/*
+.my-message-box{
+    /!*width: 100%;*!/
+    height: auto;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background-color: rgba(102, 194, 250, 0.75);
+
+}
+
+.my-message .message{
+    /!*padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;*!/
+    /!*background-color: rgba(102, 194, 250, 0.75);*!/
+    border-radius: 5px;
+
+}
+.my-message .timing{
+    color: white;
+    font-size: 10px;
+    float: right;
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
+.my-message .report {
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: -20px;
+    top: 4px;
+}
+
+.your-message-box{
+    /!*width: 100%;*!/
+    height: auto;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background-color: #d0d0d0;
+}
+
+.your-message .message{
+   /!* padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;*!/
+    /!*background-color: #d0d0d0;*!/
+    border-radius: 5px;
+}
+.your-message .timing{
+    color: white;
+    font-size: 10px;
+    float: left;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.your-message .report {
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}*/
+
+.my-message {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.my-message .message{
+    /*padding: 15px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 15px;
+    background-color: #66c2fa;
+    border-radius: 5px;
+}
+.my-message .report{
+    position: relative;
+    top: 22px;
+    left: -5px;
+    font-size: 10px;
+}
+.my-message .timing{
+    position: relative;
+    top: 22px;
+    font-size: 10px;
+}
+
+.my-image-style{
+    height: 200px;
+    width: auto;
+    opacity: 0.8;
+}
+.your-message {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.your-message .message{
+    /*padding: 15px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 15px;
+    background-color: #c4c4c4;
+    border-radius: 5px;
+}
+.your-message .report{
+    position: relative;
+    top: 22px;
+    left: 5px;
+    font-size: 10px;
+}
+.your-message .timing{
+    position: relative;
+    top: 22px;
+    font-size: 10px;
+}
+
+
+
+
+.search-chat-frnd{
+
+}
+.search-chat-frnd i{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+.search-chat-frnd input{
+    position: relative;
+    top: 10px;
+    width: 85%;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+    display: none;
+    padding-left: 10px;
+}

@@ -1,0 +1,581 @@
+a{
+    text-decoration: none !important;
+}
+.color-canvas{
+    font-size: 26px;
+    float: left;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+.tag-friend{
+    font-size: 26px;
+    color: #5d5d5d;
+    position: relative;
+    top: 8px;
+    left: -5px;
+    cursor: pointer;
+}
+
+#browse-image-video-box{
+    min-height: 40px;
+    max-height: 300px;
+    /*height: 100%;*/
+    padding: 10px;
+    /*overflow-y: scroll;*/
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+
+}
+#upload-image-video-textarea{
+    float: left;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    border: none;
+}
+#browsed-image-video-area{
+    height: auto;
+}
+#upload-add-gallery{
+    font-size: 50px;
+    color: #bfbfbf;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    /*top: 15px;*/
+    left: 5px;
+}
+.display-browsed-image-box{
+    float: left;
+    padding: 5px;
+    padding-top: 10px;
+
+}
+.display-browsed-image-box i{
+    position: relative;
+    left: -10px;
+    top: -15px;
+    color: #7c7c7c;
+    cursor: pointer;
+}
+.display-browsed-image{
+    /*width: auto;*/
+    /*height: 80px;*/
+    position: relative;
+    float: left;
+    padding: 5px;
+
+    border: 2px solid #cccccc;
+}
+
+
+#browse-file-box{
+    width: auto;
+    min-height: 40px;
+    max-height: 300px;
+    /*height: 100%;*/
+    padding: 10px;
+    overflow-y: scroll;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+
+}
+#upload-file-textarea{
+    float: left;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    border: none;
+}
+#browsed-file-area{
+    height: auto;
+}
+#upload-add-files{
+    font-size: 50px;
+    color: #bfbfbf;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    /*top: 15px;*/
+    left: 5px;
+}
+
+
+.display-browsed-file-box{
+    float: left;
+    padding: 5px;
+    position: relative;
+    top: -25px;
+    max-width: 100px;
+    padding-left: 10px;
+
+}
+.display-browsed-file-box .file-delete i{
+    position: relative;
+    left: 30px;
+    color: #7c7c7c;
+    cursor: pointer;
+}
+.display-browsed-file{
+    /*font-size: 40px;*/
+    position: relative;
+    float: left;
+    padding: 5px;
+    /*color: #525252;*/
+}
+.display-browsed-file-box .file-name{
+    float: left;
+}
+
+
+#share-post .share-post-box{
+}
+#share-post .share-post-box textarea{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+#share-post .share-post-box .row{
+    border-top: 1px solid #cccccc;
+    padding-top: 15px;
+}
+
+#share-post .share-post-box span{
+    color: #838383;
+    font-weight: bold;
+}
+#share-post .modal-header{
+
+}
+#share-post .modal-header select{
+    padding: 3px;
+    border: 1px solid #cccccc;
+    color: #727272;
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+#share-post #share-friend-box{
+    position: relative;
+    top: 10px;
+    /*border-radius: 10px;*/
+}
+
+#share-post #share-friend-box input{
+    position: relative;
+    left: -70px;
+    border: none;
+    padding: 3px;
+}
+#share-post .share-with i{
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    top: 6px;
+    color: #6f6f6f;
+}
+
+
+
+.update-profile-box{
+}
+.update-profile-box img{
+
+}
+.update-profile-box .upload-pic button{
+    width: 100%;
+    padding: 3px;
+    color: white;
+    border: none;
+}
+.update-profile-box .edit-name input{
+    width: 100%;
+    padding: 3px;
+    position: relative;
+    top: 3px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+
+}
+.update-profile-box .edit-status input{
+    width: 100%;
+    padding: 3px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+
+}
+.update-profile-box .select-pic-title{
+    position: relative;
+    top: 12px;
+}
+.update-profile-box .select-pic-title span{
+    color: #6c6c6c;
+}
+.update-profile-box .select-pic{
+    position: relative;
+    top: 15px;
+    overflow-y: scroll;
+    height: 120px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.update-profile-box .select-pic img{
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    left: 5px;
+    transition: 0.2s;
+}
+.update-profile-box .select-pic img:hover{
+    opacity: 0.7;
+}
+
+.update-profile-box .update-profile button{
+    width: 100%;
+    padding: 4px;
+    position: relative;
+    top: 20px;
+    color: white;
+    border: none;
+}
+
+
+.edit-about-me-box{
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.edit-about-me-box .add-content{
+    height: auto;
+    width: 120px;
+    cursor: pointer;
+}
+.edit-about-me-box .add-content i{
+    font-size: 20px;
+    color: #0bbe00;
+}
+.edit-about-me-box .add-content span{
+    position: relative;
+    top: -2px;
+    color: #838383;
+    font-weight: bold;
+}
+.edit-about-me-box .add-content-area{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #e4e4e4;
+}
+.edit-about-me-box .add-content-area input{
+    padding: 5px;
+    border: #e4e4e4 3px solid ;
+    width: 100%;
+}
+.edit-about-me-box .add-content-area i{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+}
+
+
+
+#show-favorites .fa-heart{
+    color: #ff5134;
+}
+
+
+
+#show-birthdays .mi-icon{
+    position: relative;
+    top: 3px;
+    color: hotpink;
+}
+.my-friend-birthdays-box{
+    width: 100%;
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.my-friend-birthdays-box .heading{
+    font-weight: bold;
+    color: hotpink;
+    height: 40px;
+    position: relative;
+    left: 5px;
+}
+.my-friend-birthdays-box .heading span{
+    font-weight: bold;
+    color: hotpink;
+    height: 40px;
+    position: relative;
+    top: 25px;
+}
+.my-friend-birthdays-box .friend-birthday{
+    width: 100%;
+    height: auto;
+    border: 1px #cccccc solid;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.my-friend-birthdays-box .friend-birthday:hover{
+    box-shadow: 2px 2px 7px #ccc;
+
+}
+
+.my-friend-birthdays-box .friend-birthday .pic{
+    height: 40px;
+    width: 40px;
+    float: left;
+    position: relative;
+    left: 15px;
+
+}
+.my-friend-birthdays-box .friend-birthday .name{
+    position: relative;
+    left: 25px;
+    float: left;
+    font-weight: bold;
+}
+.my-friend-birthdays-box .friend-birthday .age{
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+}
+.my-friend-birthdays-box .friend-birthday textarea{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+.my-friend-birthdays-box .friend-birthday button{
+    position: relative;
+    top: 18px;
+    left: 5px;
+}
+
+
+
+
+
+
+
+
+
+#show-note #add-note{
+    display: none;
+}
+#show-note .title input{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #585858;
+    border: none;
+    width: 100%;
+}
+#show-note .operation-icon{
+    color: #8b8b8b;
+    cursor: pointer;
+}
+#show-note .operation-icon:hover{
+    color: #525252;
+}
+#show-note .bottom-icon{
+    color: #8b8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+#show-note .bottom-icon:hover{
+    color: #525252;
+}
+#show-note .my-note-list-area .search-note{
+    width: 100%;
+    padding: 5px;
+    border: none;
+}
+#show-note #my-notes{
+    padding: 10px;
+    background: white;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 200px;
+    position: relative;
+    top: -10px;
+}
+#show-note #my-notes-list-ul a{
+    text-decoration: none !important;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+#show-note #my-notes-list-ul a:hover{
+    color: #3d3d3d;
+}
+#show-note #my-notes-list-ul a .time{
+    color: #969696;
+    font-size: 10px;
+    float: right;
+}
+#show-note #my-notes-list-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#show-note #my-note-display{
+    display: none;
+}
+#show-note #my-note-display #note-title{
+    font-weight: bold;
+    color: #585858;
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+}
+#show-note #my-note-display #note-content{
+    height: auto;
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+
+#select-language .title{
+    color: #F0AD4E;
+    position: relative;
+    left: 20px;
+    padding-bottom: 5px;
+}
+#select-language .title i{
+    font-size: 20px;
+}
+#select-language .title span{
+    font-size: 16px;
+}
+#select-language .language-list{
+    position: relative;
+    left: 40px;
+    color: #585858;
+}
+#select-language .language-list input{
+    position: relative;
+    top: 1px;
+}
+#select-language .language-list div{
+    padding: 3px;
+}
+
+
+
+#account-setting .title{
+    color: #16a9ff;
+}
+#account-setting .title i{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+#account-setting table{
+    position: relative;
+}
+#account-setting table tr td {
+    color: #666666;
+}
+#account-setting table tr td input{
+    padding: 3px;
+    border: 1px solid #929292;
+    color: #5CB85C;
+}
+#account-setting table tr td button{
+    padding: 3px;
+    border: 1px solid #929292;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+}
+#account-setting table tr td button i{
+    font-size: 16px;
+}
+#account-setting .mi-icon{
+    position: relative;
+    top: 3px;
+}
+
+
+#privacy-setting{
+
+}
+#privacy-setting .privacy-setting-box .title{
+    position: relative;
+    left: 30px;
+    padding: 5px;
+}
+#privacy-setting .privacy-setting-box .title span{
+    color: #48ac63;
+    font-size: 16px;
+}
+#privacy-setting .privacy-setting-box .title i{
+    color: #48ac63;
+    font-size: 16px;
+}
+#privacy-setting .privacy-setting-box .content{
+    position: relative;
+    left: 50px;
+    color: #666666;
+}
+
+
+#chat-setting{
+
+}
+#chat-setting .title{
+    position: relative;
+    left: 30px;
+    color: coral;
+    padding: 5px;
+}
+#chat-setting .title span{
+    font-size: 16px;
+}
+#chat-setting .title i{
+    font-size: 18px;
+}
+#chat-setting .title input{
+    position: relative;
+    left: 10px;top: 1px;
+    border: coral;
+}
+#chat-setting .content{
+    position: relative;
+    left: 50px;
+    color: #666666;
+}
+#chat-setting .desc span{
+    color: #a3a3a3;
+    font-size: 12px;
+    position: relative;
+    left: 60px;
+}
+

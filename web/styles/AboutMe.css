@@ -1,0 +1,31 @@
+.about-me-content{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.about-me-edit i{
+    font-size: 18px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.about-me-content .about-me-titles span{
+    padding: 5px;
+}
+.about-me-content .h-line{
+    position: relative;
+    top: 5px;
+}
+.about-me-content .about-me-data{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    padding-bottom: 20px;
+}
+.about-me-content table tr td{
+    color: #dddddd;
+    font-size: 14px;
+    height: 20px;
+}

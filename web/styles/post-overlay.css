@@ -1,0 +1,205 @@
+
+.ol-content-box{
+    position: relative;
+    top: 65px;
+    height: 80%;
+    width: 90%;
+}
+.ol-close{
+    font-size: 26px;
+    color: white;
+    float: right;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+.ol-post-content{
+    position: relative;
+    top: 10px;
+    height: auto;
+    /*background: rgba(0, 0, 0, 0.26);*/
+}
+.ol-post-content img{
+    border: 2px solid white;
+}
+.ol-zoom-option{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.ol-zoom-option:active{
+    background: rgba(255, 255, 255, 0.49);
+}
+
+.ol-post-info{
+    position: relative;
+    top: 10px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+}
+.ol-post-info .user-box{
+
+}
+.ol-post-info .user-box .pic {
+
+}
+.ol-post-info .user-box .pic{
+    font-size: 28px;
+}
+.ol-post-info .user-box .name{
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+}
+.ol-post-info .user-box .fa-edit{
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.ol-post-info .ol-post-status{
+    position: relative;
+    top: 5px;
+    max-height: 80px;
+    overflow-y: scroll;
+}
+.ol-post-info .ol-post-status i{
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+
+}
+/*
+.ol-post-actions{
+    position: relative;
+    top: 15px;
+}
+/!*.ol-post-actions ul li{
+    text-decoration: none;
+    display: inline;
+    width: 100%;
+    padding: 10px;
+}*!/
+
+.ol-like{
+    width: 27%;
+}
+.ol-like i{
+    color: #cd494c;
+}
+.ol-comment{
+    width: 39%;
+}
+.ol-share{
+    width: 30%;
+}
+
+*/
+
+
+
+.ol-post-info .actions ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+.ol-post-info .actions ul li{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ol-post-info .actions ul li i{
+    font-size: 18px;
+    color: #4d4d4d;
+    cursor: pointer;
+    /*color: red;*/
+}
+.ol-post-info .actions ul li .mi-icon{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    color: #4d4d4d;
+}
+
+
+
+.ol-post-info .ol-show-liked{
+    position: relative;
+    top: 15px;
+}
+.ol-post-info .ol-show-liked i{
+    font-size: 12px;
+}
+.ol-post-info .ol-show-liked span{
+    font-size: 12px;
+}
+.ol-post-info .ol-show-liked a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+
+.ol-show-comments{
+    position: relative;
+    top: 20px;
+    max-height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.ol-show-comments i{
+    font-size: 22px;
+    color: #4d4d4d;
+}
+.ol-show-comments label{
+    position: relative;
+    top: -3px;
+    left: 3px;
+    color: #4d4d4d;
+
+}
+.ol-show-comments span{
+    position: relative;
+    left: 5px;
+    top: -3px;
+    color: #4d4d4d;
+
+}
+
+
+
+
+
+
+
+* {box-sizing: border-box;}
+.img-magnifier-container {
+    position:relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    left: 0px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+
+

@@ -1,0 +1,87 @@
+
+.chat-box{
+    position: absolute;
+    position: fixed;
+    height: 280px;
+    width: 200px;
+    bottom: 0px;
+    right: 20px;
+    background: white;
+    visibility: hidden;
+}
+
+.chat-header{
+    padding: 5px;
+}
+.chat-header:hover{
+    cursor: pointer;
+}
+
+.chat-header i{
+    color: white;
+}
+.chat-header span{
+    color: white;
+}
+.chat-close{
+    float: right;
+    position: relative;
+    top: -3px;
+    left: 3px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.chat-close:active{
+    color: white;
+}
+.chat-footer{
+    position: absolute;
+    bottom: 0px;
+    height: 55px;
+    /*background: #f890b4;*/
+}
+.chat-footer input{
+    width: 198px;
+    padding: 3px;
+    position: relative;
+    top: 1px;
+    border: none;
+}
+.chat-footer i{
+    color: white;
+}
+.chat-add-emoji{
+    padding: 6px;
+    top: 1px;
+}
+.chat-add-emoji:hover{
+    cursor: pointer;
+    background: rgba(255, 248, 253, 0.18);
+}
+.chat-add-emoji:active{
+    background: rgba(255, 248, 253, 0.18);
+}
+.chat-add-pic{
+    padding: 6px;
+    top: 1px;
+}
+.chat-add-pic:hover{
+    cursor: pointer;
+    background: rgba(255, 248, 253, 0.18);
+}
+.chat-add-pic:active{
+    background: rgba(255, 248, 253, 0.18);
+}
+.chat-add-file{
+    padding: 6px;
+    top: 1px;
+}
+.chat-add-file:hover{
+    cursor: pointer;
+    background: rgba(255, 248, 253, 0.18);
+}
+.chat-add-file:active{
+    background: rgba(255, 248, 253, 0.18);
+}

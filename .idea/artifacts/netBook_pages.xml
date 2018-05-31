@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="netBook-pages">
+    <output-path>E:/netBook-pages</output-path>
+    <root id="archive" name="netBook-pages.war" />
+  </artifact>
+</component>

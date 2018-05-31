@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="netBook-pages:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/netBook_pages_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="netBook-pages/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="netBook-pages" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

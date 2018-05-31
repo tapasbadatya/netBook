@@ -1,0 +1,86 @@
+
+
+.friends-display-type{
+}
+.friends-display-type span{
+    position: relative;
+    left: 5px;
+    color: #dddddd;
+    font-size: 12px;
+    cursor: pointer;
+}
+#friend-display-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.friends-display-type i{
+    color: white;
+    cursor: pointer;
+    color: #dddddd;
+}
+.friends-display-type input{
+    border: none;
+    background: none;
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
+    height: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.my-friend-list{
+    padding: 10px;
+    background: none;
+    width: 100%;
+    /*overflow-x: hidden;*/
+    height: 100%;
+}
+#my-friend-list-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.my-friend-box{
+    padding: 5px;
+    /*border: 1px solid #b8b8b8;*/
+    transition: 0.2s;
+    cursor: pointer;
+    width: 100%;
+}
+/*.my-friend-box:hover{
+    box-shadow: 3px 2px 5px #cccccc;
+    border: 1px solid #888888;
+}
+.my-friend-box:active{
+    box-shadow: 3px 2px 5px #cccccc;
+    border: 1px solid #888888;
+}*/
+.my-friend-box span{
+    color: #e9e9e9;
+}
+.my-friend-box i{
+    color: #828282;
+}
+.my-friend-box .options{
+    float: right;
+    position: relative;
+    top: 3px;
+}
+.my-friend-box .options i{
+}
+.h-line{
+    background-color: #6c6c6c;
+    height: 1px;
+}

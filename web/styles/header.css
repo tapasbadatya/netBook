@@ -1,0 +1,221 @@
+a{
+    text-decoration: none !important;
+    color: #b2b2b2;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.uns{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.app-title{
+    color: #8e8e8e;
+    position: relative;
+    top: 5px;
+}
+.app-title img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: -2px;
+}
+.v-line{
+//border: 1px solid #ccc;
+}
+.nav-bar-color{
+    background: #1396d6;
+}
+.menu-btn{
+    position: relative;
+    left: 10px;
+    height: auto;
+    border: none;
+}
+
+.app-profile-box{
+    position: absolute;
+
+}
+.app-logo{
+    position: relative;
+    top: 16px;
+    left: 10px;
+    height: 30px;
+    width: auto;
+}
+.user-pic{
+    position: relative;
+    top: 16px;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.app-logo:hover{
+    border: 1px solid white;
+}
+.app-logo:active{
+    border: 3px solid white;
+}
+.app-name{
+    color: #dadada;
+    font-size: 14px;
+    position: relative;
+    top: 16px;
+    left: 15px;
+    color: white;
+}
+
+.search-chat{
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    display: none;
+}
+.search-chat input{
+    width: 70%;
+    margin-left: 10px;
+    background: #383838;
+    border: none;
+    color: white;
+    padding: 3px;
+}
+
+.top-icons{
+    color: #a8a8a8;
+    float: right;
+    position: relative;
+    top: 15px;
+}
+.top-icons a{
+    color: #9D9D9D;
+}
+/*.top-icons .edit-profile:hover{
+    color: white;
+}
+.top-icons .edit-profile:active{
+    color: white;
+}*/
+.search{
+    position: relative;
+    left: 5px;
+}
+.notification{
+    position: relative;
+    left: 3px;
+}
+.chat{
+    position: relative;
+    left: 5px;
+}
+.search:hover{
+    cursor: pointer;
+    color: white;
+}
+.notification:hover{
+    cursor: pointer;
+    color: white;
+
+}
+.chat:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.menu-options{
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+. menu-options:hover{
+        color: #00a930;
+}
+
+
+
+
+.setting-dropdown{
+    height: auto;
+    width: 150px;
+    background: white;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    box-shadow: 2px 2px 12px #ccc;
+    display: none;
+}
+.setting-dropdown .fa-caret-up{
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+    left: -15px;
+    color: white;
+}
+.setting-dropdown div{
+    position: relative;
+    padding: 5px;
+    top: -25px;
+    left: 15px;
+
+}
+.setting-dropdown span{
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    color: #949494;
+}
+.setting-dropdown .fa-bell-slash-o{
+
+}
+.setting-dropdown span:hover{
+    color: #3b3b3b;
+}
+.setting-dropdown .fa-icon{
+    color: #7c7c7c;
+    font-size: 18px;
+}
+#off-notification{
+    display: none;
+}
+#on-notification span{
+    position: relative;
+    left: 5px;
+}
+#off-notification span{
+    position: relative;
+    left: 5px;
+}
+
+.notification-dropdown{
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    min-height: 50px;
+    max-height: 400px;
+    width: 300px;
+    background: white;
+    box-shadow: 2px 4px 12px #ccc;
+    padding: 5px;
+    display: none;
+
+}
+.notification-dropdown .fa-caret-up{
+    font-size: 30px;
+    position: relative;
+    top: -25px;
+    left: -5px;
+    color: white;
+}
+.notification-dropdown .contents{
+    width: 100%;
+    min-height: 30px;
+    max-height: 370px;
+    position: relative;
+    top: -10px;
+    overflow-y: scroll;
+}

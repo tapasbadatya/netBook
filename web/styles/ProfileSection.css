@@ -1,0 +1,90 @@
+
+.my-profile-box{
+    /*background-color: #00a930;*/
+    position: relative;
+    top: 10px;
+}
+.edit-profile{
+    color: white;
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+}
+.my-profile-box .profile-pic img{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    left: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.my-profile-box .profile-name span{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    padding-left: 15px;
+
+}
+
+.my-profile-box .profile-status span{
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.my-profile-box .h-line{
+    position: relative;
+    top: 15px;
+    background: #7c7c7c;
+    height: 1px;
+    width: 100%;
+}
+.my-info-box{
+    position: relative;
+    top: 25px;
+    height: auto;
+    width: 100%;
+}
+.my-info-box div{
+    width: 33.33%;
+    height: 35px;
+
+}
+.my-info-box div span{
+    color: white;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.my-info-box .about-me{
+    position: absolute;
+}
+.my-info-box .my-gallery{
+    position: absolute;
+    left: 33.33%;
+}
+.my-info-box .my-friends{
+    position: absolute;
+    right: 0px;
+}
+
+
+.my-info-content-box{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    /*overflow-y: scroll;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    /*background: #292929;*/
+}
+
+

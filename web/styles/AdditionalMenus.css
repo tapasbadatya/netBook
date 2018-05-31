@@ -1,0 +1,46 @@
+.menu-icons{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+.menu-icons table tr td {
+    height: 25px;
+}
+.menu-icons table tr td span {
+    font-size: 14px;
+}
+.menu-icons table tr td span:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-icons .mi-icon{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+.menu-icons .fa-icon{
+    font-size: 16px;
+}
+
+.lc-box .show-notifications{
+
+    width: 97%;
+    /*border: 1px solid #b9b9b9;*/
+    position: relative;
+    top: 15px;
+    left: 5px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+.lc-box .show-notifications:hover{
+
+    width: 97%;
+    /*border: 1px solid #b9b9b9;*/
+    position: relative;
+    top: 15px;
+    left: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
