@@ -1,0 +1,146 @@
+a{
+
+}
+body{
+    background: #cccccc;
+}
+.menu{
+
+}
+.header{
+    height: 55px;
+    background-color: #007BB5;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.header .logo{
+    color: white;
+}
+.menu-btn i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.logo{
+    position: relative;
+    left: 20px;
+}
+.header-menu{
+    padding-left: 25%;
+    height: 48px;
+    position: relative;
+    top: 3px;
+}
+
+.header-menu ul li:hover{
+    position: relative;
+    height: 50px;
+}
+.header-menu .nav-item:hover{
+    border-bottom: 3px solid white;
+}
+.header-menu .nav-item:hover .menus{
+    position: relative;
+    top: 3px;
+}
+
+.header-right-box{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.user-pic{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+
+
+
+
+.menu-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 1px 3px 10px #ccc;
+}
+
+.menu-sidenav span {
+
+}
+
+.menu-sidenav .menu {
+    padding: 10px 8px 18px 32px;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.2s;
+    cursor: pointer;
+    height: 50px;
+}
+
+.menu-sidenav .menu:hover {
+    background: #ededed;
+    color: #007BB5;
+}
+.menu-sidenav .h-line{
+    background: #cccccc;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+}
+.menu-sidenav .setting{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 8px 18px 32px;
+    width: 100%;
+    color: #818181;
+    cursor: pointer;
+
+
+}
+.menu-sidenav .setting:hover{
+    background: #ededed;
+    color: #007BB5;
+}
+
+.menu-sidenav .setting i{
+    font-size: 26px;
+}
+.menu-sidenav .setting span{
+    position: relative;
+    top: -5px;
+    left: 23px;
+}
+
+.menu-sidenav .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    font-size: 26px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: #818181;
+}
+.menu-sidenav .closebtn:hover{
+    color: #afafaf;
+}
+@media screen and (max-height: 450px) {
+    .menu-sidenav {padding-top: 15px;}
+    .menu-sidenav a {font-size: 18px;}
+}
