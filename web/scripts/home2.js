@@ -5,6 +5,7 @@
 var clNavMenu = new function(){
 
     this.openSideNav = function(){
+        alert()
         document.getElementById("menu-sidenav").style.width = "250px";
     }
     this.closeSideNav = function(){

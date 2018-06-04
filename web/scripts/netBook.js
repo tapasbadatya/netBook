@@ -89,6 +89,7 @@ var netBook = new function() {
         //alert(window.innerWidth);
         document.getElementById("show-posts").style.height=window.innerHeight-110;
         document.getElementById("friend-list").style.height=window.innerHeight-110;
+        document.getElementById("content-3-content").style.height=window.innerHeight-110;
 
 
         if(window.innerWidth <= 770 ){
@@ -115,6 +116,7 @@ var netBook = new function() {
         }
         if(window.innerWidth > 990){
             document.getElementById("content-3").style.display="block";
+
         }
         this.applyResponsiveUploadBox("home");
 

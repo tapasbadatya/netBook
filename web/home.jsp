@@ -79,7 +79,7 @@
   <div class="container-fluid content-bar" id="content-bar">
     <div class="row">
       <%--<div id="content-1" class="col-lg-2 col-md-3 col-sm-3" style="background: #51C7BB;height: 100%" align="center">--%>
-      <div id="content-1" class="col-lg-2 col-md-3 col-sm-3" style="background: #222222;height: 100%" align="center">
+      <div id="content-1" class="col-lg-2 col-md-2 col-sm-3" style="background: #222222;height: 100%" align="center">
 
         <div class="home-profile-box">
           <div class="profile-pic">
@@ -97,14 +97,16 @@
             <tr data-toggle="modal" data-target="#show-birthdays"><td align="center"><i class="material-icons mi-icon">cake</i></td><td> BIRTHDAYS</td></tr>
             <tr><td align="center"><a href="Chat.jsp"><i class="material-icons mi-icon">message</i></a></td><td><a href="Chat.jsp"> MESSAGES</a></td></tr>
             <tr data-toggle="modal" data-target="#show-note"><td align="center"><i class="fa fa-file-text-o fa-icon"></i></td><td>NOTE</td></tr>
-            <tr data-toggle="modal" data-target="#select-language"><td align="center"><i class="material-icons mi-icon">language</i></td><td>LANGUAGE</td></tr>
             <tr><td align="center"><i class="material-icons mi-icon">wb_sunny</i></td><td>WHEATHER</td></tr>
             <tr><td align="center"><i class="fa fa-newspaper-o fa-icon"></i></td><td>NEWS FEED</td></tr>
+            <tr data-toggle="modal" data-target="#select-language"><td align="center"><i class="material-icons mi-icon">language</i></td><td>LANGUAGE</td></tr>
           </table>
         </div>
         <%--<div class="bottom-h-line"></div>--%>
 
       </div>
+
+
       <div id="content-2" class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
         <div id="upload-box" class="row upload-box nb-color uns" align="center">
           <div class="write-text" data-toggle="modal" data-target="#upload-write-text" onclick="Upload.setDefault()">
@@ -123,11 +125,22 @@
 
         </div>
       </div>
-      <div id="content-3" class="col-lg-3 col-md-2 col-sm-0 nb-color">
-        <div style="height: 42px">
+
+      <div id="content-3" class="col-lg-3 col-md-3 col-sm-0 nb-color" style="height: 42px" align="center">
+
+        <div class="menu1" align="center"><i class="material-icons">person_add</i></div>
+        <div class="menu2" align="center"><i class="material-icons">camera</i></div>
+        <div class="menu3" align="center"><i class="material-icons">code</i></div>
+
+        <div id="content-3-content">
+
+          <%@include file="FindFriendResult.jsp"%>
 
         </div>
+
+
       </div>
+
       <div id="content-4" class="col-lg-2 col-md-2 col-sm-3 nb-color">
         <div class="search-chat-frnd color-bar" style="height: 42px">
           <i class="fa fa-search" onclick="Chat.toggleSearchFriendToChat()"></i>
