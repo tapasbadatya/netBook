@@ -1,12 +1,17 @@
 .show-posts{
     overflow-y: scroll;
     padding: 10px;
+    overflow-x: hidden;
 
 }
 .post-box{
     height: auto;
     width: 100%;
-    padding: 8px;
+    /*padding: 8px;*/
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
     /*border: 1px solid #999999;*/
     border: 1px solid #cccccc;
     background: white;
@@ -25,8 +30,9 @@
 
 }
 .post-box .post-profile{
-    position: static;
+    position: relative;
     float: left;
+    left: 8px;
 }
 .post-box .post-profile i{
     color: #838383;
@@ -52,7 +58,7 @@
     position: relative;
     top: -10px;
     transition: 1s;
-    width: 98%;
+    width: 100%;
 }
 /*.post-content img:hover{
     opacity: 0.7;
@@ -119,8 +125,9 @@
 }
 .post-box .user-likes{
     position: relative;
-    left: 5px;
+    left:13px;
     top: 0px;
+    padding-right: 20px;
 }
 .post-box .user-likes i{
     font-size: 10px;
@@ -139,6 +146,9 @@
 .post-box .comment-box{
     padding: 3px;
     padding-top: 5px;
+    position: relative;
+    left: 8px;
+    margin-right: 18px;
 }
 .post-box .comment-box .user-comment .pic{
     font-size: 20px;

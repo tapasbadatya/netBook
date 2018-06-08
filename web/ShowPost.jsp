@@ -32,7 +32,7 @@
         <img id="post1" src="images/bg5.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post1')">
       </div>
       <div class="post-status">
-        <span>Go Green...!</span>
+        <span># Best princes in this world is my daughter</span>
       </div>
       <div class="actions" align="left">
         <ul>
@@ -59,7 +59,7 @@
           <span class="comment">Nice pic bro !</span>
           <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
         </div>
-        <div class="write-comment">
+        <div class="write-comment" align="center">
           <input id="comment1" type="text" placeholder="Write a comment here..." style="display: none">
         </div>
       </div>
@@ -101,7 +101,7 @@
           <span class="comment">Nice pic bro !</span>
           <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
         </div>--%>
-          <div class="write-comment">
+          <div class="write-comment" align="center">
             <input id="comment2" type="text" placeholder="Write a comment here..." style="display: none">
           </div>
       </div>
@@ -144,7 +144,7 @@
           <span class="comment">Nice pic bro !</span>
           <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
         </div>
-        <div class="write-comment">
+        <div class="write-comment" align="center">
           <input id="comment3" type="text" placeholder="Write a comment here..." style="display: none">
         </div>
       </div>
@@ -186,7 +186,7 @@
           <span class="comment">Nice pic bro !</span>
           <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
         </div>
-        <div class="write-comment">
+        <div class="write-comment" align="center">
           <input id="comment4" type="text" placeholder="Write a comment here..." style="display: none">
         </div>
       </div>
@@ -231,7 +231,7 @@
           <span class="comment">Nice pic bro !</span>
           <span class="comment-like"><i class="fa fa-heart"></i><span> 3</span></span>
         </div>
-        <div class="write-comment">
+        <div class="write-comment" align="center">
           <input id="comment5" type="text" placeholder="Write a comment here..." style="display: none">
         </div>
       </div>

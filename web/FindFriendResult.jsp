@@ -8,7 +8,7 @@
 <link href="styles/FindFriendResult.css" rel="stylesheet" type="text/css">
 
 <style>
-  #content-3-content .find-friend-box .find-friend-result .find-friends .btn button{
+  #content-3-content .find-friend-box .find-friend-result .find-friends .button button{
     color: <%=color%>;
   }
 </style>
@@ -22,28 +22,28 @@
     <div class="find-friends" >
       <i class="fa fa-close find-friend-close"></i>
       <i class="fa fa-user-circle pic"></i>
-      <div class="name">Ravindra Shaninipini</div>
-      <div class="btn"><button>ADD</button></div>
+      <div class="name">Kiran Nayak</div>
+      <div class="button"><button>ADD</button></div>
     </div>
 
     <div class="find-friends" >
       <i class="fa fa-close find-friend-close"></i>
       <i class="fa fa-user-circle pic"></i>
-      <div class="name">Ravindra Shaninipini</div>
-      <div class="btn"><button>CANCEL</button></div>
+      <div class="name">Alok Patro</div>
+      <div class="button"><button>CANCEL</button></div>
     </div>
 
     <div class="find-friends" align="">
       <i class="fa fa-close find-friend-close"></i>
       <i class="fa fa-user-circle pic"></i>
-      <div class="name">Ravindra Shaninipini</div>
-      <div class="btn"><button>ACCEPT</button></div>
+      <div class="name">Balaram Mandal</div>
+      <div class="button"><button>ACCEPT</button></div>
     </div>
     <div class="find-friends" align="">
       <i class="fa fa-close find-friend-close"></i>
       <i class="fa fa-user-circle pic"></i>
-      <div class="name">Ravindra Shaninipini</div>
-      <div class="btn"><button style="color: #7c7c7c">FRIENDS</button></div>
+      <div class="name">Swagatika Behera</div>
+      <div class="button"><button style="color: #7c7c7c">FRIENDS</button></div>
     </div>
 
 

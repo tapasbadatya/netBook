@@ -158,10 +158,11 @@ a{
     top: 7px;
     left: 10px;
 }
-#share-post #share-friend-box{
+#share-friend-box{
     position: relative;
     top: 10px;
     /*border-radius: 10px;*/
+    display: none;
 }
 
 #share-post #share-friend-box input{

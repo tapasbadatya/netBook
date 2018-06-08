@@ -283,7 +283,7 @@
           <option onclick="Post.showShareWithFriendInputBox('share-friend-box',true)">Share with a friend</option>
           <option onclick="Post.showShareWithFriendInputBox('share-friend-box',true)">Share with a group</option>
         </select>
-        <div id="share-friend-box" style="display: none">
+        <div id="share-friend-box">
           <span id="selected-friend"></span><input type="text" placeholder="Search for a friend">
         </div>
       </div>

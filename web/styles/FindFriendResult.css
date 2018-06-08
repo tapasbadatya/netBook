@@ -39,19 +39,19 @@
     height: auto;
     min-width: 80px;
     width: 45%;
-    border: 1px solid #dedede;
+    border: 1px solid #ccc;
     background-color: white;
     position: relative;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    box-shadow: 1px 1px 7px #dedede;
+    box-shadow: 1px 1px 7px #ccc;
     transition: 0.2s;
     top: -20px;
     padding: 2px;
 }
 #content-3-content .find-friend-box .find-friend-result .find-friends .find-friend-close{
-    color: #c8c8c8;
+    color: #ccc;
     font-size: 12px;
     position: relative;
     top: 5px;
@@ -69,23 +69,23 @@
 #content-3-content .find-friend-box .find-friend-result .find-friends .name{
     color: #7c7c7c;
     position: relative;
-    top: 25px;
-    width: 100%;
-}
-#content-3-content .find-friend-box .find-friend-result .find-friends .btn{
-    color: #7c7c7c;
-    position: relative;
     top: 30px;
     width: 100%;
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends .btn button{
-    border: white;
-    background: white;
+#content-3-content .find-friend-box .find-friend-result .find-friends .button{
+    position: relative;
+    top: 35px;
+    width: 100%;
+}
+
+#content-3-content .find-friend-box .find-friend-result .find-friends .button button{
+    border: none;
+    background: none;
     font-weight: bold;
 }
 
 #content-3-content .find-friend-box .find-friend-result .find-friends:hover{
-    box-shadow: 2px 3px 7px #dedede;
+    box-shadow: 2px 3px 7px #ccc;
 }
 
 #content-3-content .find-friend-box .find-friend-result .find-friends:hover .find-friend-close{
