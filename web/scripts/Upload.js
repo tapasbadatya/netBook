@@ -173,6 +173,7 @@ var Upload = new function(){
         document.getElementById("browsed-image-video-area").innerHTML="";
         document.getElementById("browsed-file-area").innerHTML="";
         document.getElementById("filesId").src="";
+
     }
 
 }

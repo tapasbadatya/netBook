@@ -72,7 +72,7 @@
 
 </style>
 <body onload="netBook.applyResponsiveHome()" onresize="netBook.applyResponsiveHome();">
-<div class="">
+<div class="uns">
 
   <%@include file="header.jsp"%>
 
@@ -128,13 +128,18 @@
 
       <div id="content-3" class="col-lg-3 col-md-3 col-sm-0 nb-color" style="height: 42px" align="center">
 
-        <div class="menu1" align="center"><i class="material-icons">person_add</i></div>
-        <div class="menu2" align="center"><i class="material-icons">camera</i></div>
+        <div class="menu1" align="center"><i class="material-icons" onclick="Home.showMakeFriend()">person_add</i></div>
+        <div class="menu2" align="center"><i class="material-icons" onclick="Home.showMyStory()">camera</i></div>
         <div class="menu3" align="center"><i class="material-icons">code</i></div>
 
         <div id="content-3-content">
+          <div id="make-friend" style="width: 100%;display: block">
+            <%@include file="MakeFriend.jsp"%>
+          </div>
+          <div id="my-story" style="width: 100%;display: none">
+            <%--<%@include file="FindFriendResult.jsp"%>--%>
+          </div>
 
-          <%@include file="FindFriendResult.jsp"%>
 
         </div>
 
@@ -198,5 +203,6 @@
 <script src="scripts/Utils.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/Post.js"></script>
+<script src="scripts/home.js"></script>
 
 </html>

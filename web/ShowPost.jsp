@@ -157,10 +157,10 @@
         <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
       </div><br><br>
       <div class="post-content" align="center">
-        <img id="post4" src="images/bg2.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post4')">
+        <img id="post4" src="images/royal%20enfield2.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post4')">
       </div>
       <div class="post-status">
-        <span>Wow...Nature is beautiful...</span>
+        <span>Ufff...My Dream Bike</span>
       </div>
       <div class="actions" align="left">
         <ul>

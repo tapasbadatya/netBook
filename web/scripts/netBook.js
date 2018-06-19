@@ -192,8 +192,10 @@ var netBook = new function() {
     }
     this.applyResponsiveUploadModals = function(){
 
+
         var ids = document.getElementsByClassName("display-browsed-image");
         var id2s = document.getElementsByClassName("display-browsed-file");
+
 
         if(window.innerWidth <= 770 ){
             document.getElementById("upload-add-gallery").style.fontSize="36px";

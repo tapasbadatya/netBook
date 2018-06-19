@@ -5,7 +5,7 @@
   Time: 10:51
   To change this template use File | Settings | File Templates.
 --%>
-<link href="styles/FindFriendResult.css" rel="stylesheet" type="text/css">
+<link href="styles/MakeFriend.css" rel="stylesheet" type="text/css">
 
 <style>
   #content-3-content .find-friend-box .find-friend-result .find-friends .button button{

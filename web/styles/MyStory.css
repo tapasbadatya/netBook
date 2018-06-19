@@ -1,0 +1,93 @@
+#content-3 #content-3-content .find-friend-box{
+    width: 100%;
+    /*border: 1px solid red;*/
+    height: 100%;
+    position: relative;
+    top: 0px;
+}
+#content-3 #content-3-content .find-friend-box .find-friend{
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+#content-3 #content-3-content .find-friend-box .find-friend .fa-search{
+    float: left;
+    color: #bababa;
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+}
+
+#content-3 #content-3-content .find-friend-box .find-friend input{
+    float: left;
+    width: 85%;
+    position: relative;
+    top: 3px;
+    border: none;
+    padding-left: 5px;
+    color: #7c7c7c;
+}
+#content-3 #content-3-content .find-friend-box .find-friend-result{
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 30px;
+}
+#content-3-content .find-friend-box .find-friend-result .find-friends{
+    min-height: 160px;
+    height: auto;
+    min-width: 80px;
+    width: 45%;
+    border: 1px solid #ccc;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 7px #ccc;
+    transition: 0.2s;
+    top: -20px;
+    padding: 2px;
+}
+#content-3-content .find-friend-box .find-friend-result .find-friends .find-friend-close{
+    color: #ccc;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    float: right;
+    left: -5px;
+    visibility: hidden;
+}
+#content-3-content .find-friend-box .find-friend-result .find-friends .pic{
+    color: #7c7c7c;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+#content-3-content .find-friend-box .find-friend-result .find-friends .name{
+    color: #7c7c7c;
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+#content-3-content .find-friend-box .find-friend-result .find-friends .button{
+    position: relative;
+    top: 35px;
+    width: 100%;
+}
+
+#content-3-content .find-friend-box .find-friend-result .find-friends .button button{
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+#content-3-content .find-friend-box .find-friend-result .find-friends:hover{
+    box-shadow: 2px 3px 7px #ccc;
+}
+
+#content-3-content .find-friend-box .find-friend-result .find-friends:hover .find-friend-close{
+    visibility: visible;
+}
