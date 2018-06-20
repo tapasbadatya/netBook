@@ -1,16 +1,18 @@
-#content-3 #content-3-content .find-friend-box{
+#content-3-content .my-story-box{
     width: 100%;
     /*border: 1px solid red;*/
     height: 100%;
     position: relative;
     top: 0px;
 }
-#content-3 #content-3-content .find-friend-box .find-friend{
+
+#content-3-content .my-story-box .find-story{
     width: 100%;
     position: relative;
     top: 0px;
+    z-index: 1;
 }
-#content-3 #content-3-content .find-friend-box .find-friend .fa-search{
+#content-3-content .my-story-box .find-story .fa-search{
     float: left;
     color: #bababa;
     position: relative;
@@ -18,7 +20,7 @@
     font-size: 18px;
 }
 
-#content-3 #content-3-content .find-friend-box .find-friend input{
+#content-3-content .my-story-box .find-story input{
     float: left;
     width: 85%;
     position: relative;
@@ -27,14 +29,98 @@
     padding-left: 5px;
     color: #7c7c7c;
 }
-#content-3 #content-3-content .find-friend-box .find-friend-result{
+#content-3-content .my-story-box .add-my-story{
+    width: 100%;
+    height: auto;
+    height: 30px;
+    /*border: 1px solid #cccccc;*/
+    position: relative;
+    top: 15px;
+    float: left;
+    cursor: pointer;
+    z-index: 1;
+
+}
+#content-3-content .my-story-box .add-my-story i{
+    color: #515151;
+    border: 2px dashed #515151;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#content-3-content .my-story-box .add-my-story label{
+    color: #515151;
+    position: relative;
+    top: -5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#content-3-content .my-story-box .add-my-story .h-line{
+    background-color: #cccccc;
+    height: 1px;
+    width: 99%;
+    position: relative;
+    top: 10px;
+}
+
+.my-story-box .find-story-result{
     /*border: 1px solid yellow;*/
     width: 100%;
     height: 100%;
     position: relative;
-    top: 30px;
+    /*top: 60px;*/
+
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends{
+#content-3-content .my-story-box .find-story-result .friend-story{
+    height: 50px;
+    width: 100%;
+    /*border: 1px solid red;*/
+    position: relative;
+    top: 95px;
+}
+#content-3-content .my-story-box .find-story-result .h-line{
+    position: relative;
+    top: 100px;
+    background-color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.my-story-box .find-story-result .friend-story img{
+    height: 43px;
+    width: 43px;
+    border-radius: 50px;
+    padding: 2px;
+    float: left;
+
+    position: absolute;
+    top: 1px;
+    cursor: pointer;
+}
+.my-story-box .find-story-result .friend-story .name{
+    width: 80%;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: #696969;
+
+}
+.my-story-box .find-story-result .friend-story .name label{
+    cursor: pointer;
+}
+.my-story-box .find-story-result .friend-story .time{
+    width: 80%;
+    position: absolute;
+    top: 23px;
+    left: 50px;
+    font-size: 12px;
+}
+/*
+#content-3-content .my-story-box .find-story-result .find-friends{
     min-height: 160px;
     height: auto;
     min-width: 80px;
@@ -50,7 +136,7 @@
     top: -20px;
     padding: 2px;
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends .find-friend-close{
+#content-3-content .my-story-box .find-story-result .find-friends .find-friend-close{
     color: #ccc;
     font-size: 12px;
     position: relative;
@@ -59,35 +145,35 @@
     left: -5px;
     visibility: hidden;
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends .pic{
+#content-3-content .my-story-box .find-story-result .find-friends .pic{
     color: #7c7c7c;
     font-size: 40px;
     position: relative;
     top: 20px;
     left: 5%;
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends .name{
+#content-3-content .my-story-box .find-story-result .find-friends .name{
     color: #7c7c7c;
     position: relative;
     top: 30px;
     width: 100%;
 }
-#content-3-content .find-friend-box .find-friend-result .find-friends .button{
+#content-3-content .my-story-box .find-story-result .find-friends .button{
     position: relative;
     top: 35px;
     width: 100%;
 }
 
-#content-3-content .find-friend-box .find-friend-result .find-friends .button button{
+#content-3-content .my-story-box .find-story-result .find-friends .button button{
     border: none;
     background: none;
     font-weight: bold;
 }
 
-#content-3-content .find-friend-box .find-friend-result .find-friends:hover{
+#content-3-content .my-story-box .find-story-result .find-friends:hover{
     box-shadow: 2px 3px 7px #ccc;
 }
 
-#content-3-content .find-friend-box .find-friend-result .find-friends:hover .find-friend-close{
+#content-3-content .my-story-box .find-story-result .find-friends:hover .find-friend-close{
     visibility: visible;
-}
+}*/

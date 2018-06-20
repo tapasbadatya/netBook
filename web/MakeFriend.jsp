@@ -8,11 +8,11 @@
 <link href="styles/MakeFriend.css" rel="stylesheet" type="text/css">
 
 <style>
-  #content-3-content .find-friend-box .find-friend-result .find-friends .button button{
+  #content-3-content .make-friend-box .find-friend-result .find-friends .button button{
     color: <%=color%>;
   }
 </style>
-<div class="find-friend-box uns">
+<div class="make-friend-box uns">
   <div class="find-friend">
     <i class="fa fa-search"></i><input type="text" placeholder="Search friends">
   </div>

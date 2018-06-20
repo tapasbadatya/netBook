@@ -72,7 +72,7 @@
 
 </style>
 <body onload="netBook.applyResponsiveHome()" onresize="netBook.applyResponsiveHome();">
-<div class="uns">
+<div class="">
 
   <%@include file="header.jsp"%>
 
@@ -137,7 +137,7 @@
             <%@include file="MakeFriend.jsp"%>
           </div>
           <div id="my-story" style="width: 100%;display: none">
-            <%--<%@include file="FindFriendResult.jsp"%>--%>
+            <%@include file="MyStory.jsp"%>
           </div>
 
 

@@ -5,48 +5,84 @@
   Time: 10:51
   To change this template use File | Settings | File Templates.
 --%>
-<link href="styles/MakeFriend.css" rel="stylesheet" type="text/css">
+<link href="styles/MyStory.css" rel="stylesheet" type="text/css">
 
 <style>
-  #content-3-content .find-friend-box .find-friend-result .find-friends .button button{
-    color: <%=color%>;
-  }
+
 </style>
-<div class="find-friend-box uns">
-  <div class="find-friend">
-    <i class="fa fa-search"></i><input type="text" placeholder="Search friends">
+
+<div class="my-story-box uns">
+  <div class="find-story">
+    <i class="fa fa-search"></i><input type="text" placeholder="Search for story">
   </div>
 
-  <div class="find-friend-result">
+  <div class="add-my-story" align="left">
+    <span><i class="material-icons">add</i><label>ADD STORY</label></span>
+    <div class="h-line"></div>
+  </div>
 
-    <div class="find-friends" >
-      <i class="fa fa-close find-friend-close"></i>
-      <i class="fa fa-user-circle pic"></i>
-      <div class="name">Kiran Nayak</div>
-      <div class="button"><button>ADD</button></div>
+
+
+  <div class="find-story-result">
+
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
     </div>
 
-    <div class="find-friends" >
-      <i class="fa fa-close find-friend-close"></i>
-      <i class="fa fa-user-circle pic"></i>
-      <div class="name">Alok Patro</div>
-      <div class="button"><button>CANCEL</button></div>
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
     </div>
 
-    <div class="find-friends" align="">
-      <i class="fa fa-close find-friend-close"></i>
-      <i class="fa fa-user-circle pic"></i>
-      <div class="name">Balaram Mandal</div>
-      <div class="button"><button>ACCEPT</button></div>
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
     </div>
-    <div class="find-friends" align="">
-      <i class="fa fa-close find-friend-close"></i>
-      <i class="fa fa-user-circle pic"></i>
-      <div class="name">Swagatika Behera</div>
-      <div class="button"><button style="color: #7c7c7c">FRIENDS</button></div>
+
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
     </div>
 
 
+    <div class="h-line"></div>
+
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
+    </div>
+
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
+    </div>
+
+    <div class="friend-story">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
+      <div class="user">
+        <div class="name" align="left"><label>Manas Ranjan</label></div>
+        <div class="time" align="left"><span>7:37 PM</span></div>
+      </div>
+    </div>
 
 
   </div>
