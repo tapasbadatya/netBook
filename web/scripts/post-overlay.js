@@ -16,6 +16,8 @@ var clPostOverlay = new function(){
         document.getElementById("ol-zoom-option").innerHTML="<i class='fa fa-search-plus'></i>";
         glass.remove();
     }
+
+
     this.zoomOver = function(imgId,zoom){
         if(isBoolean == true){
             isBoolean = false;

@@ -72,6 +72,11 @@
 
 </style>
 <body onload="netBook.applyResponsiveHome()" onresize="netBook.applyResponsiveHome();">
+
+
+<%@include file="story-overlay.jsp"%>
+
+
 <div class="">
 
   <%@include file="header.jsp"%>
@@ -161,6 +166,7 @@
     </div>
   </div>
 
+
   <div class="container">
     <div class="modal fade" id="searchModal" role="dialog">
       <div class="modal-dialog">
@@ -198,11 +204,13 @@
   <%@include file="modals-common.jsp"%>
   <%@include file="modals-home.jsp"%>
   <%@include file="chat-window.jsp"%>
+
+
+
 </div>
 </body>
 <script src="scripts/Utils.js"></script>
 <script src="scripts/header.js"></script>
 <script src="scripts/Post.js"></script>
 <script src="scripts/home.js"></script>
-
 </html>

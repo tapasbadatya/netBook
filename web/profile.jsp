@@ -58,7 +58,7 @@
 
   <div class="container-fluid content-bar" id="content-bar">
     <div class="row">
-      <div id="content-1" class="col-lg-4 col-md-4 col-sm-4 profile-box" style="background: #222222;height: 100%" align="center">
+      <div id="content-1" class="col-lg-4 col-md-4 col-sm-4 profile-box" align="center">
 
         <%@include file="ProfileSection.jsp"%>
 

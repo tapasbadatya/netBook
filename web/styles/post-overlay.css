@@ -1,12 +1,17 @@
-
+.overlay-bg{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
 .ol-content-box{
     position: relative;
-    top: 65px;
-    height: 80%;
-    width: 90%;
+    top: 10px;
+    height: 92%;
+    width: 100%;
+
 }
 .ol-close{
-    font-size: 26px;
+    font-size: 24px;
     color: white;
     float: right;
     position: relative;
@@ -43,8 +48,8 @@
     height: 100%;
     width: 100%;
     padding: 10px;
-    overflow-y: scroll;
-    overflow-y: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .ol-post-info .user-box{
 
@@ -70,7 +75,7 @@
     position: relative;
     top: 5px;
     max-height: 80px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 .ol-post-info .ol-post-status i{
     font-size: 18px;
@@ -156,7 +161,7 @@
     position: relative;
     top: 20px;
     max-height: 350px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     overflow-x: hidden;
 }
 .ol-show-comments i{
@@ -196,8 +201,8 @@
     border-radius: 50%;
     cursor: none;
     /*Set the size of the magnifier glass:*/
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     z-index: 1;
 }
 
@@ -210,6 +215,7 @@
 
 
 
+/*
 
 .overlay {
     height: 0%;
@@ -267,6 +273,7 @@
     }
 }
 
+*/
 
 /*
 

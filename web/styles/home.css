@@ -1,6 +1,7 @@
 
 body{
     /*background: rgba(248, 76, 132, 0.17);*/
+
 }
 
 .search-input{
@@ -220,3 +221,4 @@ body{
     display: none;
     padding-left: 10px;
 }
+

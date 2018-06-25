@@ -27,7 +27,7 @@
 
     <div class="friend-story">
       <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
-      <div class="user">
+      <div class="user" onclick="clStoryOverlay.show()">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
       </div>
@@ -78,7 +78,7 @@
 
     <div class="friend-story">
       <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
-      <div class="user">
+      <div class="user" onclick="clStoryOverlay.showStoryOverlay(null)">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
       </div>

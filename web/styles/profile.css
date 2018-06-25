@@ -19,6 +19,10 @@ body{
 
 .profile-box{
     padding-bottom: 180px;
+    background: #222222;
+    height: 100%;
+    overflow-y: scroll;
+
 }
 .upload-box{
     height: 42px;

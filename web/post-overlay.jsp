@@ -23,15 +23,17 @@
 <body>--%>
 <link href="styles/post-overlay.css" rel="stylesheet">
 
-<center>
-<div id="post-overlay">
+<div id="post-overlay" style="display: none;background-color: black">
 
-  <div class="container">
-    <div id="ol-content-box" class="ol-content-box">
+
+
+  <div class="container-fluid" >
+
+    <div id="ol-content-box" class="ol-content-box" >
       <div class="row">
         <div class="ol-close"><i class="fa fa-close" onclick="clPostOverlay.closePostOverlay()"></i> </div>
       </div>
-      <div class="row" style="height: 100%">
+      <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
           <div class="ol-post-content" align="left">
             <div class="img-magnifier-container">
@@ -73,21 +75,6 @@
 
             <div class="ol-show-comments" id="ol-show-comments" align="left">
               <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-<%--              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>
-              <i class="fa fa-user-circle"></i><label> Rajesh Pradhan</label><span>Super...</span><br>--%>
 
             </div>
 
@@ -97,54 +84,6 @@
     </div>
   </div>
 
-
-
-<%--  <div class="container">
-    <div class="ol-content-box">
-      <div class="ol-close"><i class="fa fa-close" onclick="clPostOverlay.closePostOverlay()"></i> </div>
-      <table border="2" width="100%">
-        <tr>
-          <td width="60%">
-            <div class="img-magnifier-container">
-              <img id="myimage" src="images/post2.jpg" class="img-responsive">
-              <div class="ol-zoom-option" id="ol-zoom-option" onclick="clPostOverlay.zoomOver('myimage', 3);"><i class="fa fa-search-plus"></i> </div>
-            </div>
-          </td>
-          <td>
-            <div class="ol-post-info">
-
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-  </div>--%>
-
-
-
-
 </div>
 
-
-<%--
-</body>
-</html>
-
---%>
-
-
-   <%-- <div id="video-post-overlay" class="overlay">
-        <a class="closebtn" onclick="clPostOverlay.closeVideoOverlay()">&times;</a>
-        <div class="overlay-content">
-            <video autoplay loop>
-                <source id="video-overlay" src="videos/myvideo.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        &lt;%&ndash;<div class="content">
-            <button id="myBtn">Pause</button>
-        </div>&ndash;%&gt;
-    </div>--%>
-
-</center>
+<%--<script src="scripts/post-overlay.js" type="javascript"/>--%>

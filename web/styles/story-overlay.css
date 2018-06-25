@@ -1,0 +1,28 @@
+#story-overlay .story-box-bg{
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    /*opacity: 0.5;*/
+}
+#story-overlay .story-box{
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    z-index: 4;
+    position: relative;
+    top: 60px;
+    /*left: 30%;*/
+    overflow-y: auto;
+}
+#story-progress{
+    width: 100%;
+    background-color: #d9d9d9;
+}
+#story-progress #progress-bar{
+    width: 1%;
+    height: 10px;
+    background-color: #2E9CE1;
+}

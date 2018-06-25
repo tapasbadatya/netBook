@@ -22,29 +22,38 @@ body{
 }
 .friend-box{
     padding: 5px;
-    border: 1px solid #cccccc;
+    /*border: 1px solid #cccccc;*/
+    border-bottom: 1px solid #d5d5d5;
+    /*border-top: 1px solid white;*/
+    /*border-left: 1px solid white;*/
+    /*border-right: 1px solid white;*/
     /*border: 1px solid #b8b8b8;*/
     /*border-radius: 4px;*/
     /*background: #ED4D28;*/
     /*background: white;*/
     transition: 0.2s;
     cursor: pointer;
-    box-shadow: 1px 1px 3px #cccccc;
+    /*box-shadow: 1px 1px 3px #cccccc;*/
 
 }
 .friend-box:hover{
-    box-shadow: 3px 2px 5px #cccccc;
+    /*border: 1px solid #cccccc;*/
+    /*box-shadow: 0px 2px 5px #cccccc;*/
     /*border: 1px solid #888888;*/
 }
 .friend-box:active{
-    box-shadow: 3px 2px 5px #cccccc;
-    border: 1px solid #888888;
+    /*box-shadow: 3px 2px 5px #cccccc;*/
+    /*border: 1px solid #888888;*/
 }
 .friend-box span{
     color: #303030;
+    position: relative;
+    left: 0px;
 }
 .friend-box i{
     color: #828282;
+    font-size: 26px;
+
 }
 .frnd-options{
     position: absolute;

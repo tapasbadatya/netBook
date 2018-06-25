@@ -241,13 +241,13 @@
 
   </div>
 
-  <div>
-    <%@include file="post-overlay.jsp" %>
-  </div>
+
 
 </body>
 
-
+<%--<div>
+  <%@include file="post-overlay.jsp" %>
+</div>--%>
 
 </html>
 

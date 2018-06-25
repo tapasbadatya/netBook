@@ -12,6 +12,9 @@
 
 <div class="row" id="header">
   <nav class="navbar navbar-inverse navbar-fixed-top" style="border: none">
+
+
+
     <div class="container-fluid">
       <div id="app-title" class="app-title" align="right"><img src="images/logo.jpg"> netBook</div>
       <div class="v-line"></div>
@@ -55,9 +58,23 @@
         <li><a href="#" id="setting-link" onclick="clHeader.toggleSettingDropdown()"><i class="fa fa-cog" style="font-size:22px;position: relative;top: 4px"></i><span style="position: relative;top: 2px"> Setting</span></a></li>
         <li><a href="index.jsp"><i class="fa fa-sign-out" style="font-size:24px;position: relative;top: 4px"></i> Logout</a></li>
       </ul>
+
+
     </div>
+
+    <div>
+      <%@include file="post-overlay.jsp" %>
+    </div>
+
+
+
+
   </nav>
+
+
+
 </div>
+
 
 
 
