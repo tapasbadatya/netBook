@@ -6,8 +6,11 @@ var clStoryOverlay = new function(){
 
     var isStatusProgress = true;
     var intervalId;
+    var noOfStories=0;
+    var progressTime=30;
 
-    this.show = function(){
+    this.show = function(obj,id){
+        document.getElementById(id).src=obj.src;
         document.getElementById("story-overlay").style.display="block";
         this.progressBar(true);
     }
@@ -28,7 +31,7 @@ var clStoryOverlay = new function(){
         if(flag){
             elem = document.getElementById("progress-bar");
             width = 1;
-            intervalId = setInterval(frame, 30);
+            intervalId = setInterval(frame, progressTime);
             function frame() {
 
                 if(isStatusProgress){

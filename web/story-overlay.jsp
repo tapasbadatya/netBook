@@ -17,7 +17,7 @@
         <div id="progress-bar"></div>
       </div>
       <div class="content">
-        <img src="images/royal%20enfield2.jpg" class="img-responsive" onmousedown="clStoryOverlay.pause()" onmouseup="clStoryOverlay.play()">
+        <img id="story-content" src="images/royal%20enfield2.jpg" class="img-responsive" onmousedown="clStoryOverlay.pause()" onmouseup="clStoryOverlay.play()">
       </div>
 
     </div>

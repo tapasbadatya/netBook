@@ -26,15 +26,15 @@
   <div class="find-story-result">
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
-      <div class="user" onclick="clStoryOverlay.show()">
+      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;" onclick="clStoryOverlay.show(this,'story-content')">
+      <div class="user" >
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
       </div>
     </div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <img src="images/royal%20enfield.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;" onclick="clStoryOverlay.show(this,'story-content')">
       <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <img src="images/bg2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;" onclick="clStoryOverlay.show(this,'story-content')">
       <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;">
+      <img src="images/bg5.jpg" class="img-responsive" style="border: 2px solid #2E9CE1;" onclick="clStoryOverlay.show(this,'story-content')">
       <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
@@ -61,7 +61,7 @@
     <div class="h-line"></div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
+      <img src="images/post2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;" onclick="clStoryOverlay.show(this,'story-content')">
       <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
@@ -69,7 +69,7 @@
     </div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
+      <img src="images/background2.png" class="img-responsive" style="border: 2px solid #c5c5c5;" onclick="clStoryOverlay.show(this,'story-content')">
       <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
@@ -77,8 +77,8 @@
     </div>
 
     <div class="friend-story">
-      <img src="images/royal%20enfield2.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;">
-      <div class="user" onclick="clStoryOverlay.showStoryOverlay(null)">
+      <img src="images/cover.jpg" class="img-responsive" style="border: 2px solid #c5c5c5;" onclick="clStoryOverlay.show(this,'story-content')">
+      <div class="user">
         <div class="name" align="left"><label>Manas Ranjan</label></div>
         <div class="time" align="left"><span>7:37 PM</span></div>
       </div>
