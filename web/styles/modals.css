@@ -179,7 +179,57 @@ a{
     color: #6f6f6f;
 }
 
+.share-post-social input{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+.share-post-social textarea{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
 
+#share-post-FB .btn{
+    background-color: #4867AA;
+    color: white;
+}
+#share-post-FB .btn:hover{
+    background-color: #5376c3;
+    color: white;
+}
+
+#share-post-twitter .btn{
+    background-color: #55ACEE;
+    color: white;
+}
+#share-post-twitter .btn:hover{
+    background-color: #5bb8ff;
+    color: white;
+}
+
+#share-post-googleplus .btn{
+    background-color: #DD4B3E;
+    color: white;
+}
+#share-post-googleplus .btn:hover{
+    background-color: #f25244;
+    color: white;
+}
+#share-post-linkedin .btn{
+    background-color: #0077B5;
+    color: white;
+}
+#share-post-linkedin .btn:hover{
+    background-color: #008bd3;
+    color: white;
+}
 
 .update-profile-box{
 }

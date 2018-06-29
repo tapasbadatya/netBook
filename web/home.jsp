@@ -97,7 +97,7 @@
         </div>
         <div class="home-menus">
           <table border="0" class="uns">
-            <tr data-toggle="modal" data-target="#show-favorites"><td width="40" align="center"><i class="fa fa-heart fa-icon"></i></td><td> FAVORITES</td></tr>
+            <tr data-toggle="modal" data-target="#show-favorites"><td width="30" align="center"><i class="fa fa-heart fa-icon"></i></td><td> FAVORITES</td></tr>
             <tr><td align="center"><i class="material-icons mi-icon">event_available</i></td><td>EVENTS</td></tr>
             <tr data-toggle="modal" data-target="#show-birthdays"><td align="center"><i class="material-icons mi-icon">cake</i></td><td> BIRTHDAYS</td></tr>
             <tr><td align="center"><a href="Chat.jsp"><i class="material-icons mi-icon">message</i></a></td><td><a href="Chat.jsp"> MESSAGES</a></td></tr>

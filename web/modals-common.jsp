@@ -315,3 +315,126 @@
     </div>
   </div>
 </div>
+
+
+<center>
+<div class="modal fade uns share-post-social" id="share-post-FB" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content" style="min-width: 250px;max-width: 50% ">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="float: left">
+          <i class="fa fa-facebook-square" style="font-size:28px;color: #4867AA"></i> Share on Facebook</h4>
+      </div>
+      <div class="modal-body" align="center">
+        <div class="row">
+            <div class="row">
+              <input type="text" placeholder="Enter username">
+            </div>
+            <div class="row">
+              <input type="password" placeholder="Enter password">
+            </div>
+            <div class="row">
+              <textarea placeholder="Write some comments here"></textarea>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn">Share</button>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+
+
+<center>
+  <div class="modal fade uns share-post-social" id="share-post-twitter" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content" style="min-width: 250px;max-width: 50% ">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="float: left">
+            <i class="fa fa-twitter-square" style="font-size:28px;color: #55ACEE"></i> Share on Twitter</h4>
+        </div>
+        <div class="modal-body" align="center">
+          <div class="row">
+            <div class="row">
+              <input type="text" placeholder="Enter username">
+            </div>
+            <div class="row">
+              <input type="password" placeholder="Enter password">
+            </div>
+            <div class="row">
+              <textarea placeholder="Write some comments here"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+
+<center>
+  <div class="modal fade uns share-post-social" id="share-post-googleplus" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content" style="min-width: 250px;max-width: 50% ">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="float: left">
+            <i class="fa fa-google-plus-square" style="font-size:28px;color: #DD4B3E"></i> Share on Google+</h4>
+        </div>
+        <div class="modal-body" align="center">
+          <div class="row">
+            <div class="row">
+              <input type="text" placeholder="Enter username">
+            </div>
+            <div class="row">
+              <input type="password" placeholder="Enter password">
+            </div>
+            <div class="row">
+              <textarea placeholder="Write some comments here"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+
+
+<center>
+  <div class="modal fade uns share-post-social" id="share-post-linkedin" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content" style="min-width: 250px;max-width: 50% ">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="float: left">
+            <i class="fa fa-linkedin-square" style="font-size:28px;color: #0077B5"></i> Share on Linkedin</h4>
+        </div>
+        <div class="modal-body" align="center">
+          <div class="row">
+            <div class="row">
+              <input type="text" placeholder="Enter username">
+            </div>
+            <div class="row">
+              <input type="password" placeholder="Enter password">
+            </div>
+            <div class="row">
+              <textarea placeholder="Write some comments here"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>

@@ -60,10 +60,10 @@
                 <li><i class="fa fa-comment-o"></i></li>
                 <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
                   <span class="social-share">
-                    <i class="fa fa-facebook-square"></i>
-                    <i class="fa fa-twitter-square"></i>
-                    <i class="fa fa-google-plus-square"></i>
-                    <i class="fa fa-linkedin-square"></i>
+                    <i data-toggle="modal" data-target="#share-post-FB" class="fa fa-facebook-square" onclick="Utils.newWindow()"></i>
+                    <i data-toggle="modal" data-target="#share-post-twitter" class="fa fa-twitter-square"></i>
+                    <i data-toggle="modal" data-target="#share-post-googleplus" class="fa fa-google-plus-square"></i>
+                    <i data-toggle="modal" data-target="#share-post-linkedin" class="fa fa-linkedin-square"></i>
                   </span>
                 </li>
               </ul>
