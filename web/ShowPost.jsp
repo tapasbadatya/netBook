@@ -1,3 +1,5 @@
+<%@ page import="java.util.Date" %>
+<%@ page import="java.text.SimpleDateFormat" %>
 <%--
   Created by IntelliJ IDEA.
   User: Tapas
@@ -18,7 +20,11 @@
 <script>
 
 </script>
-
+<%
+  SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+  Date date=new Date();
+  String sDate =date.getHours()+":"+date.getMinutes()+"&nbsp;&nbsp;&nbsp;"+ formatter.format(date);
+%>
 <body>
 
 
@@ -26,7 +32,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time"><%=sDate%></span>
       </div><br><br>
       <div class="post-content" align="center">
         <img id="post1" src="images/bg5.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post1')">
@@ -69,7 +75,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time"><%=sDate%></span>
       </div><br><br>
       <div class="post-content" align="center">
         <i class="fa fa-file-text-o" style="font-size: 30px;"></i><span style="position: relative;top: -5px"> Test.java</span>
@@ -112,7 +118,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time"><%=sDate%></span>
       </div><br><br>
       <div class="post-content" align="center">
         <label>Hello Friends...!</label>
@@ -154,7 +160,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time"><%=sDate%></span>
       </div><br><br>
       <div class="post-content" align="center">
         <img id="post4" src="images/royal%20enfield2.jpg" class="img-responsive" onclick="clPostOverlay.showPostOverlay('post4')">
@@ -198,7 +204,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span> Manas Ranjan</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time">7:34 PM</span>
       </div><br><br>
       <div class="post-content" align="center">
         <video autoplay loop muted controls id="post5" src="videos/myvideo.mp4">

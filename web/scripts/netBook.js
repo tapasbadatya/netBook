@@ -85,8 +85,11 @@ var netBook = new function() {
     }
 
     this.applyResponsiveHome = function(){
-        this.applyResponsiveHeader();
         //alert(window.innerWidth);
+
+        this.applyResponsiveHeader();
+
+
         document.getElementById("show-posts").style.height=window.innerHeight-110;
         document.getElementById("friend-list").style.height=window.innerHeight-110;
         document.getElementById("content-3-content").style.height=window.innerHeight-110;
@@ -103,7 +106,7 @@ var netBook = new function() {
 
         }
         if(window.innerWidth > 767 ){
-            document.getElementById("content-bar").style.top="60px";
+            document.getElementById("content-bar").style.top="55px";
             document.getElementById("content-1").style.display="block";
             document.getElementById("content-2").style.display="block";
             document.getElementById("content-3").style.display="block";
@@ -129,7 +132,7 @@ var netBook = new function() {
         document.getElementById("search-modal").style.display="none";
         document.getElementById("notification").style.display="none";
         document.getElementById("message").style.display="none";
-        document.getElementById("content-1").style.height=window.innerHeight-60;
+        //document.getElementById("content-1").style.height=window.innerHeight-60;
         document.getElementById("show-posts").style.height=window.innerHeight-105;
         document.getElementById("friend-list").style.height=window.innerHeight-105;
 
@@ -152,11 +155,11 @@ var netBook = new function() {
         }
         if(window.innerWidth > 767 ){
             document.getElementById("myprofile").style.display="block";
-            document.getElementById("content-bar").style.top="60px";
+            document.getElementById("content-bar").style.top="55px";
             document.getElementById("content-1").style.display="block";
             document.getElementById("content-2").style.display="block";
             document.getElementById("content-3").style.display="block";
-            document.getElementById("content-1").style.height=window.innerHeight-60;
+            document.getElementById("content-1").style.height=window.innerHeight-50;
             document.getElementById("content-1").style.top="0px";
             document.getElementById("content-1").style.overflowY="hidden";
             document.getElementById("profile-pic").style.height="80px";

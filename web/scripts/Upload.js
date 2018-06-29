@@ -42,7 +42,8 @@ var Upload = new function(){
                         var reader = new FileReader();
                         var file = files.files[index];
 
-                        var isValid = isValidFile(filesId,contentType);
+                        //var isValid = isValidFile(filesId,contentType);
+                        var isValid = true;
 
                         reader.onload = function(e){
 
@@ -170,6 +171,9 @@ var Upload = new function(){
     }
     this.setDefault = function(){
         filesLength = 0;
+        document.getElementById("upload-add-gallery").style.display="block";
+        document.getElementById("upload-add-files").style.display="block";
+
         document.getElementById("browsed-image-video-area").innerHTML="";
         document.getElementById("browsed-file-area").innerHTML="";
         document.getElementById("filesId").src="";

@@ -48,7 +48,7 @@
       </div>
     </div>
     <div class="collapse navbar-collapse uns" id="menu">
-      <ul class="nav navbar-nav navbar-right menu-options">
+      <%--<ul class="nav navbar-nav navbar-right menu-options">
         <li id="search"><a href="#"><i class="fa fa-search" style="font-size:22px;position: relative;top: 5px;left: 5px" data-toggle="modal" data-target="#searchModal"></i></a></li>
         <li><a href="home.jsp"><i class="fa fa-home" style="font-size:24px;position: relative;top: 3px"></i><span> Home</span></a></li>
         <li id="myprofile"><a href="profile.jsp"><i class="fa fa-user-circle" style="font-size:20px;position: relative;top: 5px"></i><span style="position: relative;top: 3px"> Profile</span></a></li>
@@ -56,7 +56,18 @@
         <li><a href="#" id="notification-link" onclick="clHeader.toggleNotificationDropdown()"><i class="material-icons" style="font-size:26px;position: relative;top: 2px;left: -2px">notifications</i><span style="position: relative;top: -5px;left:-2px"> Notification</span></a></li>
         <li><a href="#" id="setting-link" onclick="clHeader.toggleSettingDropdown()"><i class="fa fa-cog" style="font-size:22px;position: relative;top: 4px"></i><span style="position: relative;top: 2px"> Setting</span></a></li>
         <li><a href="index.jsp"><i class="fa fa-sign-out" style="font-size:24px;position: relative;top: 4px"></i> Logout</a></li>
-      </ul>
+      </ul>--%>
+
+
+        <ul class="nav navbar-nav navbar-right menu-options">
+          <li id="search"><a href="#"><i class="fa fa-search" style="font-size:15px;position: relative;top: 4px;left: 5px" data-toggle="modal" data-target="#searchModal"></i></a></li>
+          <li><a href="home.jsp"><i class="fa fa-home" style="font-size:18px;position: relative;top: 2px"></i><span style="position: relative;top: 1px"> Home</span></a></li>
+          <li id="myprofile"><a href="profile.jsp"><i class="fa fa-user-circle" style="font-size:14px;position: relative;top: 2px"></i><span style="position: relative;top: 2px"> Profile</span></a></li>
+          <li><a href="#" id="chat-link"><i class="material-icons" style="font-size:18px;position: relative;top: 4px">message</i><span style="position: relative;top: -1px"> Chat</span></a></li>
+          <li><a href="#" id="notification-link" onclick="clHeader.toggleNotificationDropdown()"><i class="material-icons" style="font-size:20px;position: relative;top: 1px;left: -2px">notifications</i><span style="position: relative;top: -4px;left:-2px"> Notification</span></a></li>
+          <li><a href="#" id="setting-link" onclick="clHeader.toggleSettingDropdown()"><i class="fa fa-cog" style="font-size:18px;position: relative;top: 3px"></i><span style="position: relative;top: 1px"> Setting</span></a></li>
+          <li><a href="index.jsp"><i class="fa fa-sign-out" style="font-size:17px;position: relative;top: 2px"></i> Logout</a></li>
+        </ul>
 
 
     </div>

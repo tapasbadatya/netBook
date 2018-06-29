@@ -14,14 +14,15 @@ body{
 
 .content-bar{
     position: relative;
-    top: 60px;
+    top: 55px;
 }
 
 .profile-box{
-    padding-bottom: 180px;
+    /*padding-bottom: 180px;*/
     background: #222222;
-    height: 100%;
-    overflow-y: scroll;
+    height: 110%;
+    /*overflow-y: scroll;*/
+
 
 }
 .upload-box{

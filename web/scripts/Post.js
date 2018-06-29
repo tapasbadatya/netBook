@@ -22,13 +22,22 @@ var Post = new function(){
             val.setAttribute("style","display: none");
         }
     }
-    this.showShareWithFriendInputBox = function(id,flag){
+    /*this.showShareWithFriendInputBox = function(id,flag){
         var val = document.getElementById(id);
         if(flag)
             val.setAttribute("style","display: block");
         else
             val.setAttribute("style","display: none");
+    }*/
+
+    this.showShareWithFriendInputBox = function(obj,fieldId){
+        var val = document.getElementById(obj.id).value;
+        if(val=="1")
+            document.getElementById(fieldId).style.display="block";
+        else
+            document.getElementById(fieldId).style.display="none";
     }
+
     this.displayShareModal =  function(id){
         var val = document.getElementById(id);
     }

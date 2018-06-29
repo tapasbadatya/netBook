@@ -5,6 +5,7 @@
   Time: 15:49
   To change this template use File | Settings | File Templates.
 --%>
+<input type="file" id="fileIdForProfilePic" accept="image/*" style="display: none">
 
 <div class="modal fade uns" id="edit-profile-modal" role="dialog" align="center">
   <div class="modal-dialog">
@@ -15,7 +16,7 @@
             <img id="edit-profile-pic" src="images/tapas.jpg" class="img-responsive">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="upload-pic" id="upload-profile-pic" onclick="Upload.displayBrowsedImage('fileId','edit-profile-pic')"><button class="btn btn-success"><i class="fa fa-folder-open-o" style="font-size: 18px"></i> Browse Picture</button></div>
+            <div class="upload-pic" id="upload-profile-pic" onclick="Upload.displayBrowsedImage('fileIdForProfilePic','edit-profile-pic')"><button class="btn btn-success"><i class="fa fa-folder-open-o" style="font-size: 18px"></i> Browse Picture</button></div>
             <div class="edit-name"><input type="text" placeholder="Edit your name"></div>
             <div class="edit-status"><input type="text" placeholder="Edit your status"></div>
             <div class="select-pic-title" align="left">

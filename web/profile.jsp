@@ -52,13 +52,13 @@
 
 </style>
 <body onload="netBook.applyResponsiveProfile()" onresize="netBook.applyResponsiveProfile();">
-<div class="">
+<div class="uns">
 
   <%@include file="header.jsp"%>
 
   <div class="container-fluid content-bar" id="content-bar">
     <div class="row">
-      <div id="content-1" class="col-lg-4 col-md-4 col-sm-4 profile-box" align="center">
+      <div id="content-1" class="col-lg-4 col-md-4 col-sm-4 profile-box" style="height: 600px" align="center">
 
         <%@include file="ProfileSection.jsp"%>
 

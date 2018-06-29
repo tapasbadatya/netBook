@@ -87,8 +87,9 @@
   </div>
 </div>
 
-<input type="file" id="fileId" style="display: none">
-<input type="file" id="filesId" multiple style="display: none">
+
+<input type="file" id="filesIdForIV" accept="image/jpeg,image/png,image/gif,video/mp4" multiple style="display: none">
+<input type="file" id="filesIdForF" accept=".txt,.pdf,.docx,.ppt,.xlsx,.java,.html,.htm,.js,.css,.jsp,.php,.rar,.war,.jar" multiple style="display: none">
 
 <div class="modal fade uns" id="upload-write-text" role="dialog">
   <div class="modal-dialog">
@@ -137,13 +138,13 @@
           <div id="browsed-image-video-area">
 
           </div>
-          <i id="upload-add-gallery" class="material-icons add-gallery" onclick="Upload.displayBrowsedContents('filesId','browsed-image-video-area',5,'gallery')">add_to_photos</i>
+          <i id="upload-add-gallery" class="material-icons add-gallery" onclick="Upload.displayBrowsedContents('filesIdForIV','browsed-image-video-area',5,'gallery')">add_to_photos</i>
         </div>
       </div>
       <div class="modal-footer">
         <div class="footer-options">
           <%--<button><i class="fa fa-columns"></i> Apply Compare</button>--%>
-          <button type="button" class="btn btn-success" onclick="Upload.checkValidFile('filesId','gallery')">Post</button>
+          <button type="button" class="btn btn-success">Post</button>
         </div>
       </div>
     </div>
@@ -167,7 +168,7 @@
 
           </div>
 
-          <i id="upload-add-files" class="material-icons add-gallery" onclick="Upload.displayBrowsedContents('filesId','browsed-file-area',5,'file')">add_to_photos</i>
+          <i id="upload-add-files" class="material-icons add-gallery" onclick="Upload.displayBrowsedContents('filesIdForF','browsed-file-area',5,'file')">add_to_photos</i>
         </div>
       </div>
       <div class="modal-footer">
@@ -279,10 +280,10 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title" style="float: left">
           <i class="material-icons" style="font-size:28px;position: relative;top: 7px;color: #337AB7">call_made</i> Share</h4>
-        <select>
-          <option onclick="Post.showShareWithFriendInputBox('share-friend-box',false)">Share with you</option>
-          <option onclick="Post.showShareWithFriendInputBox('share-friend-box',true)">Share with a friend</option>
-          <option onclick="Post.showShareWithFriendInputBox('share-friend-box',true)">Share with a group</option>
+        <select id="share-post-content" onchange="Post.showShareWithFriendInputBox(this,'share-friend-box')">
+          <option value="0">Share with you</option>
+          <option value="1">Share with friends</option>
+          <%--<option value="2">Share with a group</option>--%>
         </select>
         <div id="share-friend-box">
           <span id="selected-friend"></span><input type="text" placeholder="Search for a friend">

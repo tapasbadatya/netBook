@@ -77,7 +77,7 @@
 <%@include file="story-overlay.jsp"%>
 
 
-<div class="">
+<div class="uns">
 
   <%@include file="header.jsp"%>
 
