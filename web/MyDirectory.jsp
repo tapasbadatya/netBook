@@ -14,6 +14,16 @@
     <title></title>
 </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link href="styles/bootstrap.min.css" rel="stylesheet">
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-2.0.3.js"></script>
+
 
 <%
 
@@ -36,7 +46,18 @@
     <div class="back"><i class="material-icons icon" title="Back">arrow_back</i></div>
     <div class="create"><i class="material-icons icon" title="Create Folder">create_new_folder</i></div>
   </div>
+  <div class="h-line"></div>
+  <div id="directory-area">
+
+    <div class="dir-box" align="center">
+      <div class="dir-icon"><i class="fa fa-folder-open-o"></i> </div>
+      <div class="dir-name"><span id="dir1" onclick="Directory.applyRename('dir1')">New Folder</span></div>
+    </div>
+
+  </div>
 </div>
 
 </body>
+
+<script src="scripts/MyDirectory.js"></script>
 </html>
