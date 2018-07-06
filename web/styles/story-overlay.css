@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     background-color: #222222;
-    z-index: 3;
+    z-index: 4;
     position: absolute;
     top: 0px;
     /*opacity: 0.5;*/
@@ -11,18 +11,106 @@
     width: 50%;
     height: 90%;
     background-color: white;
-    z-index: 4;
+    z-index: 5;
     position: relative;
     top: 60px;
     /*left: 30%;*/
     overflow-y: auto;
+    padding-bottom: 20px;
+}
+#story-overlay .story-box .content{
+    /*border: 2px solid red;*/
+}
+#story-overlay .story-box .content .about{
+    position: relative;
+    bottom: 40px;
+    height: 0px;
+    width: 100%;
+}
+#story-overlay .story-box .content .about div{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 10px;
+    /*padding-left: 30px;*/
+    /*padding-right: 30px;*/
+    /*border-radius: 5px;*/
+    color: white;
+    font-weight: bold;
 }
 #story-progress{
     width: 100%;
+    position: relative;
+    /*top: 25px;*/
     background-color: #d9d9d9;
 }
 #story-progress #progress-bar{
     width: 1%;
-    height: 10px;
+    height: 8px;
     background-color: #2E9CE1;
+}
+
+#story-overlay .user-info{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    padding-bottom: 35px;
+}
+#story-overlay .user-info .pic{
+    font-size: 26px;
+    float: left;
+}
+#story-overlay .user-info .name{
+    float: left;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+#story-overlay .comment-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 5px;
+    padding: 5px;
+}
+
+#story-overlay .comment-box .input-box {
+    position: absolute;
+    left: 15px;
+    width: 95%;
+    /*border-radius: 5px;*/
+    padding: 5px;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+}
+#story-overlay .comment-box .input-box input{
+    width: 88%;
+    float: left;
+    position: relative;
+    left: 10px;
+    border: none;
+}
+#story-overlay .comment-box .input-box .fa-comment-o{
+    font-size: 22px;
+    position: relative;
+    left: 5px;
+    float: left;
+    color: #a3a3a3;
+}
+#story-overlay .comment-box .input-box .fa-heart-o{
+    font-size: 22px;
+    position: relative;
+    left: -10px;
+    float: right;
+    color: #6d6d6d;
+}
+#story-overlay .comment-box .input-box .fa-heart{
+    font-size: 22px;
+    position: relative;
+    left: -10px;
+    float: right;
+    color: #6d6d6d;
+}
+#story-overlay .comment-box .input-box .fa{
+    cursor: pointer;
 }

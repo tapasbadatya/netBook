@@ -54,13 +54,14 @@ var clHeader = new function(){
 
     }
     var toggleOnOffNotification = false;
-    this.toggleOnOffNotification = function(){
-        //alert(localStorage.getItem("nB-notification"));
+    this.toggleOnOffNotification = function(obj){
+
         if(toggleOnOffNotification == false){
             document.getElementById("off-notification").style.display="block";
             document.getElementById("on-notification").style.display="none";
             localStorage.setItem("nB-notification","off");
             toggleOnOffNotification = true;
+
         }
         else if(toggleOnOffNotification == true){
             document.getElementById("off-notification").style.display="none";

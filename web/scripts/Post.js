@@ -9,6 +9,10 @@ var Post = new function(){
             val.setAttribute("style","color:#FF5061");
         }
         else if(val.getAttribute("class")=="fa fa-heart"){
+            val.setAttribute("class","fa fa-heartbeat");
+            val.setAttribute("style","color:#FF5061");
+        }
+        else if(val.getAttribute("class")=="fa fa-heartbeat"){
             val.setAttribute("class","fa fa-heart-o");
             val.setAttribute("style","color:#4d4d4d");
         }

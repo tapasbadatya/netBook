@@ -17,7 +17,7 @@
   </div>
 
   <div class="add-my-story" align="left">
-    <span><i class="material-icons">add</i><label>ADD STORY</label></span>
+    <span data-toggle="modal" data-target="#add-story" onclick="MyStory.init()"><i class="material-icons">add</i><label>ADD STORY</label></span>
     <div class="h-line"></div>
   </div>
 

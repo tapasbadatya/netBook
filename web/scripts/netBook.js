@@ -8,6 +8,17 @@ var netBook = new function() {
         if(nBnotification == null){
             localStorage.setItem("nB-notification","on");
         }
+
+        if(localStorage.getItem("nB-notification") == "on"){
+            document.getElementById("notification-box").style.display="block";
+            setTimeout(function(){
+                document.getElementById("notification-box").style.display="none";
+            },6000);
+        }
+        else{
+            document.getElementById("notification-box").style.display="none";
+        }
+
     }
     this.applyResponsiveHeader = function () {
         this.initial();
@@ -90,9 +101,9 @@ var netBook = new function() {
         this.applyResponsiveHeader();
 
 
-        document.getElementById("show-posts").style.height=window.innerHeight-110;
-        document.getElementById("friend-list").style.height=window.innerHeight-110;
-        document.getElementById("content-3-content").style.height=window.innerHeight-110;
+        document.getElementById("show-posts").style.height=window.innerHeight-100;
+        document.getElementById("friend-list").style.height=window.innerHeight-100;
+        document.getElementById("content-3-content").style.height=window.innerHeight-100;
 
 
         if(window.innerWidth <= 770 ){
@@ -133,8 +144,8 @@ var netBook = new function() {
         document.getElementById("notification").style.display="none";
         document.getElementById("message").style.display="none";
         //document.getElementById("content-1").style.height=window.innerHeight-60;
-        document.getElementById("show-posts").style.height=window.innerHeight-105;
-        document.getElementById("friend-list").style.height=window.innerHeight-105;
+        document.getElementById("show-posts").style.height=window.innerHeight-100;
+        document.getElementById("friend-list").style.height=window.innerHeight-100;
 
         this.applyResponsiveEditProfile();
 

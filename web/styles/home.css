@@ -4,12 +4,7 @@ body{
 
 }
 
-.search-input{
-    position: relative;
-    top: -10px;
-    width: 100%;
-    border: none;
-}
+
 
 
 
@@ -142,7 +137,7 @@ body{
     top: 10px;
 }*/
 #content-3 div i{
-    color: white;
+    /*color: white;*/
 }
 
 #content-3 i{
@@ -152,13 +147,16 @@ body{
     float: left;
     position: relative;
     width: 33.33%;
-    top: 10px;
+    top: 8px;
+    color: white;
 }
 #content-3 .menu2{
     float: left;
     position: relative;
     width: 33.33%;
-    top: 10px;
+    top: 8px;
+    color: white;
+
 }
 #content-3 .menu2 i{
     font-size: 22px;
@@ -169,6 +167,11 @@ body{
     position: relative;
     width: 33.33%;
     top: 10px;
+    color: white;
+
+}
+#content-3 .menu3 .fa-folder-open{
+    font-size: 18px;
 }
 
 #content-3 #content-3-content{
@@ -221,4 +224,3 @@ body{
     display: none;
     padding-left: 10px;
 }
-

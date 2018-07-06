@@ -7,7 +7,7 @@ var clStoryOverlay = new function(){
     var isStatusProgress = true;
     var intervalId;
     var noOfStories=0;
-    var progressTime=30;
+    var progressTime=40;
 
     this.show = function(obj,id){
         document.getElementById(id).src=obj.src;

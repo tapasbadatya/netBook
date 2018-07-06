@@ -16,7 +16,7 @@
 
 
     <div class="container-fluid">
-      <div id="app-title" class="app-title" align="right" style="display: none"><img src="images/logo.jpg"> netBook</div>
+      <div id="app-title" class="app-title" align="right" style="display: none"><img src="images/logo5.jpg"> netBook</div>
       <div class="navbar-header" id="nav-header">
 
         <button type="button" class="navbar-toggle menu-btn" data-toggle="collapse" data-target="#menu">
@@ -26,7 +26,7 @@
         </button>
 
         <div class="app-profile-box" id="app-profile-box" style="display: none">
-          <a href="home.jsp"><img src="images/logo.jpg" class="app-logo"><span class="app-name">netBook</span></a>
+          <a href="home.jsp"><img src="images/logo5.jpg" class="app-logo"><span class="app-name">netBook</span></a>
         </div>
         <div class="app-profile-box" id="user-profile-box" style="display: none">
           <a href="profile.jsp"><img src="images/tapas.jpg" class="user-pic"><span class="app-name">Tapas Badatya</span></a>
@@ -84,6 +84,8 @@
 
 
 </div>
+
+
 
 
 

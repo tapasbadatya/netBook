@@ -23,7 +23,6 @@
       $("#cv4").fadeToggle(400);
       $("#cv5").fadeToggle(500);
       $("#cv6").fadeToggle(600);
-      document.getElementById("my-write-text").style.color="#797979";
     });
   });
   $(document).ready(function(){
@@ -70,6 +69,27 @@
   });
 
 </script>
+
+
+
+<div class="container">
+  <div class="modal fade" id="searchModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body" style="height: 35px">
+          <div class="search1">
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="search2">
+            <input type="text" id="search-input" class="search-input" placeholder="Search inside netBook..."/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="modal fade" id="show-profile-modal" role="dialog" align="center">
   <div class="modal-dialog">
     <div class="modal-content" style="width: 80%">
@@ -90,6 +110,9 @@
 
 <input type="file" id="filesIdForIV" accept="image/jpeg,image/png,image/gif,video/mp4" multiple style="display: none">
 <input type="file" id="filesIdForF" accept=".txt,.pdf,.docx,.ppt,.xlsx,.java,.html,.htm,.js,.css,.jsp,.php,.rar,.war,.jar" multiple style="display: none">
+
+<input type="file" id="addStoryIV" accept="image/jpeg,image/png,image/gif,video/mp4" style="display: none">
+
 
 <div class="modal fade uns" id="upload-write-text" role="dialog">
   <div class="modal-dialog">
@@ -286,7 +309,13 @@
           <%--<option value="2">Share with a group</option>--%>
         </select>
         <div id="share-friend-box">
-          <span id="selected-friend"></span><input type="text" placeholder="Search for a friend">
+          <div id="selected-friend">
+            <img src="images/tapas.jpg"><img src="images/tapas.jpg"><img src="images/tapas.jpg">
+          </div>
+          <div class="search-box">
+            <input type="text" placeholder="Search for a friend">
+          </div>
+
         </div>
       </div>
       <div class="modal-body">
@@ -438,3 +467,20 @@
     </div>
   </div>
 </center>
+
+
+
+<div id="notification-box" class="notification-box">
+  <div class="close-btn"><i class="fa fa-close" onclick="Utils.display('notification-box',false)"></i></div>
+  <div class="info" onclick="clPostOverlay.showPostOverlay('not1'),Utils.display('notification-box',false)">
+    <div class="content">
+      <img id="not1" src="images/royal%20enfield2.jpg" >
+    </div>
+    <div class="desc">
+      <span class="name">Manas Ranjan</span><span> liked this photo</span>
+    </div>
+  </div>
+</div>
+
+
+

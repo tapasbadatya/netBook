@@ -1,0 +1,25 @@
+.my-directory{
+
+}
+.my-directory .dir-header{
+    /*background-color: rgba(46, 156, 225, 0.53);*/
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+.my-directory .dir-header .icon{
+    color: #adadad;
+}
+.my-directory .dir-header .icon:hover{
+    color: #959595;
+}
+.my-directory .dir-header .back{
+    width: 40px;
+    position: absolute;
+    left: 0%;
+}
+.my-directory .dir-header .create{
+    width: 40px;
+    position: relative;
+    left: 90%;
+}

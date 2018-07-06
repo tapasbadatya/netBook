@@ -1,3 +1,4 @@
+<%@ page import="com.netBook.accessor.ColorPicker" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -11,39 +12,67 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="styles/index.css" rel="stylesheet">
+
 </head>
+<%
+  String color = ColorPicker.getColor("nB-color");
+%>
+<style>
+  body{
+    background-color: <%=color%>;
+  }
 
+  .login input:hover{
+    background-color: white;
+    color: <%=color%>;
+  }
+
+  .register input:hover{
+    background-color: white;
+    color: <%=color%>;
+  }
+
+  .login input:active{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: <%=color%>;
+  }
+
+  .register input:active{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: <%=color%>;
+  }
+
+</style>
 <body>
-<div class="test">
-
-  <%--<img src="images/background2.png" class="background">--%>
-  <i class="fa fa-square"></i>
-  <i class="fa fa-square-o"></i>
-
-  <%--<div class="header">
-
-  </div>
-  <div class="container" align="center">
-
-    <div class="app-logo-box">
-      <div class="app-logo">
-        <i class="fa fa-stop"></i>jhgj
+<div class="">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-8 logo" align="center">
+          <img src="images/logo5.jpg" class="img-responsive">
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
       </div>
-      <div class="app-title">
-        netBook
+
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-8 logo login">
+          <a href="home.jsp"><input type="button" value="LOGIN USER"/></a>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
       </div>
-      <div class="app-tagline">
-        the choice of friends
+
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-8 logo register">
+          <input type="button" value="CREATE USER"/>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-3 col-xs-2"></div>
       </div>
-      <div class="register-login-box">
-        <input type="text" name="uid" placeholder="Username"><br>
-        <input type="password" name="pwd" placeholder="Password"><br>
-        <a href="home.jsp"><button class="login-btn">Login</button></a><br>
-        <a class="fp" href="#">Forgot password ?</a><br>
-        <button class="register-btn">New Account</button><br>
-      </div>
+
     </div>
-  </div>--%>
+  </div>
 </div>
 </body>
 </html>

@@ -88,12 +88,12 @@
           <li><i id="like2" class="fa fa-heart-o" onclick="Post.likeToggle('like2')"></i></li>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment2')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
-            <span class="social-share">
+            <%--<span class="social-share">
               <i data-toggle="modal" data-target="#share-post-FB" class="fa fa-facebook-square" onclick="Utils.newWindow()"></i>
               <i data-toggle="modal" data-target="#share-post-twitter" class="fa fa-twitter-square"></i>
               <i data-toggle="modal" data-target="#share-post-googleplus" class="fa fa-google-plus-square"></i>
               <i data-toggle="modal" data-target="#share-post-linkedin" class="fa fa-linkedin-square"></i>
-            </span>
+            </span>--%>
           </li>
         </ul>
       </div>
@@ -204,7 +204,7 @@
 
     <div class="post-box">
       <div class="post-profile">
-        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time">7:34 PM</span>
+        <i class="fa fa-user-circle"></i><span class="name"> Manas Ranjan</span><span class="time"><%=sDate%></span>
       </div><br><br>
       <div class="post-content" align="center">
         <video autoplay loop muted controls id="post5" src="videos/myvideo.mp4">

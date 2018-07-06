@@ -160,16 +160,33 @@ a{
 }
 #share-friend-box{
     position: relative;
-    top: 10px;
+    top: 15px;
     /*border-radius: 10px;*/
     display: none;
+    width: 100%;
+    height: 40px;
+}
+#selected-friend{
+    float: left;
+    position: absolute;
+}
+#selected-friend img{
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+    border-radius: 40px;
+}
+#share-friend-box .search-box{
+    float: left;
+    position: relative;
+    left: 30px;
 }
 
 #share-post #share-friend-box input{
     position: relative;
-    left: -70px;
     border: none;
     padding: 3px;
+    top: 3px;
 }
 #share-post .share-with i{
     font-size: 24px;
@@ -630,3 +647,199 @@ a{
     left: 60px;
 }
 
+.notification-box{
+    height: 80px;
+    width: 350px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    z-index: 3;
+    box-shadow: 2px 2px 5px #ccc;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.notification-box:hover{
+    box-shadow: 3px 3px 7px #ccc;
+}
+
+.notification-box .close-btn{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 5px;
+}
+.notification-box .close-btn i{
+    float: right;
+    color: #b5b5b5;
+    font-size: 13px;
+    position: relative;
+    left: -8px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.notification-box .close-btn i:hover{
+    color: #979797;
+}
+
+.notification-box .info{
+    height: 100%;
+    width: 100%;
+}
+.notification-box .info .content{
+    height: 100%;
+    width: 30%;
+    padding: 5px;
+    float: left;
+}
+.notification-box .info .content img{
+    height: 100%;
+    max-height: 70px;
+    width: auto;
+}
+.notification-box .info .desc{
+    float: right;
+    height: 100%;
+    width: 70%;
+    padding: 5px;
+    color: #545454;
+    position: relative;
+    left: 5px;
+}
+.notification-box .info .desc .name{
+    font-weight: bold;
+}
+
+
+#searchModal .search1{
+    width: 6%;
+    float: left;
+}
+#searchModal .search1 i{
+    color: #979797;
+    position: relative;
+    top: -5px;
+}
+#searchModal .search2{
+    width: 94%;
+    float: right;
+}
+#searchModal .search2 .search-input{
+    position: relative;
+    top: -8px;
+    width: 100%;
+    border: none;
+}
+
+
+#event .mi-icon{
+    position: relative;
+    top: 5px;
+}
+#event .labelname{
+    position: relative;
+    top: -7px;
+    color: #3b3b3b;
+}
+
+#event .modal-footer .row .bottom-btn{
+    width: 60%;
+    cursor: pointer;
+}
+#default-event{
+    color: #6c6c6c;
+}
+#event-body .heading{
+    color: #76bf00;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#event-body div{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#event-body div input{
+    width: 100%;
+    border: 1px solid #ababab;
+    padding: 5px;
+}
+
+#event-body div select{
+    width: 100%;
+    border: 1px solid #ababab;
+    padding: 5px;
+}
+#event-body div textarea{
+    width: 100%;
+    border: 1px solid #ababab;
+    padding: 5px;
+}
+#event-body div button{
+    width: 100%;
+    padding: 5px;
+    background-color: #76bf00;
+    color: white;
+    border: none;
+}
+#event-body div button:hover{
+    background-color: #81d200;
+}
+
+#event-body div span{
+    color: #444444;
+    position: relative;
+    left: 20px;
+}
+#create-event{
+    position: relative;
+    left: 50px;
+    display: none;
+    top: -10px;
+}
+
+#add-story .material-icons{
+    color: #5CB85C;
+    border: 2px dashed #5CB85C;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#add-story #add-story-option{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#add-story #add-story-option .option{
+    background-color: #E6E6E6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#add-story #add-story-option .option:hover{
+    background-color: #6ad46a;
+}
+#add-story-text{
+    display: none;
+}
+
+#add-story-text textarea{
+    width: 100%;
+    border: none;
+}
+#add-story-IV{
+    display: none;
+}
+#add-story-browsed{
+    max-height: 200px;
+    max-width: 350px;
+    width: auto;
+    height: auto;
+}

@@ -10,7 +10,7 @@
 <html>
 <head>
   <title>Welcome to netBook Chat</title>
-  <link rel="icon" type="image/png" href="images/logo.jpg">
+  <link rel="icon" type="image/png" href="images/logo5.jpg">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <%--<link href="styles/home.css" rel="stylesheet">--%>
+
+  <%--<link href="styles/bootstrap.min.css" rel="stylesheet">--%>
+  <%--<script src="scripts/bootstrap.min.js"></script>--%>
+  <%--<script src="scripts/jquery-2.0.3.js"></script>--%>
+
+
+<%--<link href="styles/home.css" rel="stylesheet">--%>
   <link href="styles/header.css" rel="stylesheet">
   <link href="styles/Chat.css" rel="stylesheet">
   <link href="styles/modals.css" rel="stylesheet">

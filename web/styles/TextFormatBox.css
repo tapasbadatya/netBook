@@ -25,7 +25,7 @@
 .text-format-options .mi-icons{
     position: relative;
     top: 2px;
-    color: #939393;
+    color: #a3a3a3;
     cursor: pointer;
 }
 .text-format-options .mi-icons:hover{
@@ -34,7 +34,19 @@
 .text-format-options .mi-icons:active{
     color: #595959;
 }
+.text-format-options .fa-bold{
+    position: relative;
+    left: 20px;
+}
 
+.text-format-options .fa-bold{
+    position: relative;
+    left: 20px;
+}
+.text-format-options .material-icons{
+    position: relative;
+    left: -20px;
+}
 .text-format-input{
     padding-top: 10px;
     padding-left: 25px;
