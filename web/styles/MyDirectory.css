@@ -39,9 +39,21 @@
 }
 #directory-area .dir-box{
     height: auto;
-    width: 40%;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
     /*border: 1px solid red;*/
 }
+#directory-area .dir-box:hover{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    position: relative;
+    top: -1px;
+}
+#directory-area .dir-box:hover .delete-dir i{
+    visibility: visible;
+}
+
 #directory-area .dir-box .dir-icon{
     font-size: 40px;
     color: #b0b0b0;
@@ -53,5 +65,9 @@
 #directory-area .dir-box .dir-name input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid #9f9f9f;
+    /*border-bottom: 1px solid #9f9f9f;*/
+}
+#directory-area .dir-box .delete-dir i{
+    color: #a5a5a5;
+    visibility: hidden;
 }
