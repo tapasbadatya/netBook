@@ -50,6 +50,7 @@
   <div id="directory-area">
 
     <div class="dir-box" align="center">
+      <div class="delete-dir" align="right"><i class="fa fa-close"></i> </div>
       <div class="dir-icon"><i class="fa fa-folder-open-o"></i> </div>
       <div class="dir-name"><span id="dir1" onclick="Directory.applyRename('dir1')">New Folder</span></div>
     </div>
