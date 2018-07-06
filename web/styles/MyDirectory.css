@@ -9,6 +9,7 @@
 }
 .my-directory .dir-header .icon{
     color: #adadad;
+    cursor: pointer;
 }
 .my-directory .dir-header .icon:hover{
     color: #959595;
@@ -22,4 +23,35 @@
     width: 40px;
     position: relative;
     left: 90%;
+}
+.my-directory .h-line{
+    position: relative;
+    top: 25px;
+    height: 1px;
+    background-color: #b9b9b9;
+}
+#directory-area{
+    position: relative;
+    top: 35px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#directory-area .dir-box{
+    height: auto;
+    width: 40%;
+    /*border: 1px solid red;*/
+}
+#directory-area .dir-box .dir-icon{
+    font-size: 40px;
+    color: #b0b0b0;
+}
+#directory-area .dir-box .dir-name{
+    width: 100%;
+    color: #515151;
+}
+#directory-area .dir-box .dir-name input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9f9f9f;
 }
