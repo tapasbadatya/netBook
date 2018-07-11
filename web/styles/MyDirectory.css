@@ -32,7 +32,7 @@
 }
 #directory-area{
     position: relative;
-    top: 35px;
+    top: 15px;
     padding: 10px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -42,13 +42,18 @@
     width: 100px;
     padding: 5px;
     cursor: pointer;
+    float: left;
+    position: relative;
+    /*left: 5%;*/
+    border: 1px solid white;
+    border-radius: 5px;
+
     /*border: 1px solid red;*/
 }
 #directory-area .dir-box:hover{
     border: 1px solid #cccccc;
-    border-radius: 5px;
-    position: relative;
-    top: -1px;
+
+
 }
 #directory-area .dir-box:hover .delete-dir i{
     visibility: visible;
@@ -65,7 +70,12 @@
 #directory-area .dir-box .dir-name input{
     width: 100%;
     border: none;
-    /*border-bottom: 1px solid #9f9f9f;*/
+    position: relative;
+    top: -1px;
+    /*border: 1px solid #9f9f9f;*/
+    height: 20px;
+    color: #0c79ca;
+    text-align: center;
 }
 #directory-area .dir-box .delete-dir i{
     color: #a5a5a5;
