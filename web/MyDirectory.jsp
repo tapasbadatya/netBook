@@ -32,9 +32,6 @@
 
   File file = new File(prefixPath+"web/nBUsers/tapas@gmail.com");
   String[] dirs = file.list();
-  for(String dir : dirs){
-    out.print(dir);
-  }
 %>
 <link href="styles/MyDirectory.css" rel="stylesheet">
 
@@ -46,14 +43,26 @@
     <div class="back"><i class="material-icons icon" title="Back">arrow_back</i></div>
     <div class="create"><i class="material-icons icon" title="Create Folder">create_new_folder</i></div>
   </div>
-  <div class="h-line"></div>
+  <%--<div class="h-line"></div>--%>
   <div id="directory-area">
+
+    <%
+      for(String dir : dirs){
+    %>
 
     <div class="dir-box" align="center">
       <div class="delete-dir" align="right"><i class="fa fa-close"></i> </div>
       <div class="dir-icon"><i class="fa fa-folder-open-o"></i> </div>
-      <div class="dir-name"><span id="dir1" onclick="Directory.applyRename('dir1')">New Folder</span></div>
+      <div class="dir-name"><span id="dir-<%=dir%>" onclick="Directory.applyRename('dir-<%=dir%>')"><%=dir%></span></div>
     </div>
+
+
+    <%
+      }
+    %>
+
+
+
 
   </div>
 </div>
