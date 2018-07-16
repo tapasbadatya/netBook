@@ -2,8 +2,9 @@
  * Created by Tapas on 29-05-2018.
  */
 var Post = new function(){
-    this.likeToggle = function(id){
-        var val = document.getElementById(id);
+
+    this.likeToggle = function(obj){
+        var val = document.getElementById(obj.id);
         if(val.getAttribute("class")=="fa fa-heart-o"){
             val.setAttribute("class","fa fa-heart");
             val.setAttribute("style","color:#FF5061");
@@ -16,7 +17,26 @@ var Post = new function(){
             val.setAttribute("class","fa fa-heart-o");
             val.setAttribute("style","color:#4d4d4d");
         }
-    }
+    };
+
+    /*this.likeToggle = function(id){
+
+        var i=0;
+
+        var val = document.getElementById(id);
+
+
+            setTimeout(function(){
+                i++;
+            },1);
+
+        document.getElementById(id).onmouseup = function(){
+            alert(i);
+        };
+
+    };*/
+
+
     this.commentToggle = function(id){
         var val = document.getElementById(id);
         if(val.getAttribute("style") == "display: none"){
@@ -25,7 +45,7 @@ var Post = new function(){
         else if(val.getAttribute("style")=="display: block"){
             val.setAttribute("style","display: none");
         }
-    }
+    };
     /*this.showShareWithFriendInputBox = function(id,flag){
         var val = document.getElementById(id);
         if(flag)

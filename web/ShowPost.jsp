@@ -42,7 +42,7 @@
       </div>
       <div class="actions" align="left">
         <ul>
-          <li><i id="like1" class="fa fa-heart-o" onclick="Post.likeToggle('like1')"></i></li>
+          <li><i id="like1" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
           <%--<li id="unlike1" style="display: none"><i class="fa fa-heart"></i></li>--%>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment1')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
@@ -85,7 +85,7 @@
       </div>
       <div class="actions" align="left">
         <ul>
-          <li><i id="like2" class="fa fa-heart-o" onclick="Post.likeToggle('like2')"></i></li>
+          <li><i id="like2" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment2')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
             <%--<span class="social-share">
@@ -128,7 +128,7 @@
       </div>
       <div class="actions" align="left">
         <ul>
-          <li><i id="like3" class="fa fa-heart-o" onclick="Post.likeToggle('like3')"></i></li>
+          <li><i id="like3" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment3')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
             <span class="social-share">
@@ -170,7 +170,7 @@
       </div>
       <div class="actions" align="left">
         <ul>
-          <li><i id="like4" class="fa fa-heart-o" onclick="Post.likeToggle('like4')"></i></li>
+          <li><i id="like4" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment4')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
             <span class="social-share">
@@ -215,7 +215,7 @@
       </div>
       <div class="actions" align="left">
         <ul>
-          <li><i id="like5" class="fa fa-heart-o" onclick="Post.likeToggle('like5')"></i></li>
+          <li><i id="like5" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
           <li><i class="fa fa-comment-o" onclick="Post.commentToggle('comment5')"></i></li>
           <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
             <span class="social-share">

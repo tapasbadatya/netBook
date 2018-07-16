@@ -145,17 +145,15 @@
         <div class="menu3" align="center"><i class="fa fa-folder-open" onclick="Home.showDirectory()"></i> </div>
 
         <div id="content-3-content">
-          <div id="make-friend" style="width: 100%;display: block">
+          <div id="make-friend" style="width: 100%;display: none">
             <%@include file="MakeFriend.jsp"%>
           </div>
-          <div id="my-story" style="width: 100%;display: none">
+          <div id="my-story" style="width: 100%;display: block">
             <%@include file="MyStory.jsp"%>
           </div>
           <div id="directory" style="width: 100%;display: none">
             <%@include file="MyDirectory.jsp"%>
           </div>
-
-
         </div>
 
 

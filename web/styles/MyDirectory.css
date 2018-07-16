@@ -72,11 +72,14 @@
     border: none;
     position: relative;
     top: -1px;
-    /*border: 1px solid #9f9f9f;*/
     height: 20px;
-    color: #0c79ca;
+    color: #515151;
     text-align: center;
 }
+#directory-area .dir-box .dir-name input:hover{
+    color: #0c79ca;
+}
+
 #directory-area .dir-box .delete-dir i{
     color: #a5a5a5;
     visibility: hidden;

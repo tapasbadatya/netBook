@@ -9,21 +9,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title></title>
-</head>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>--%>
 <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<%--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--%>
+<%--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">--%>
 
-<link href="styles/bootstrap.min.css" rel="stylesheet">
-<script src="scripts/bootstrap.min.js"></script>
-<script src="scripts/jquery-2.0.3.js"></script>
+<%--<link href="styles/bootstrap.min.css" rel="stylesheet">--%>
+<%--<script src="scripts/bootstrap.min.js"></script>--%>
+<%--<script src="scripts/jquery-2.0.3.js"></script>--%>
 
+<link href="styles/MyDirectory.css" rel="stylesheet">
 
 <%
 
@@ -33,9 +30,8 @@
   File file = new File(prefixPath+"web/nBUsers/tapas@gmail.com");
   String[] dirs = file.list();
 %>
-<link href="styles/MyDirectory.css" rel="stylesheet">
 
-<body>
+<%--<body>--%>
 
 <div class="my-directory" align="left">
 
@@ -67,7 +63,7 @@
   </div>
 </div>
 
-</body>
+<%--</body>--%>
 
 <script src="scripts/MyDirectory.js"></script>
-</html>
+<%--</html>--%>

@@ -12,6 +12,10 @@ body{
     -ms-user-select: none;
     user-select: none;
 }
+
+.navbar-header{
+    /*height: 55px;*/
+}
 .app-title{
     color: #8e8e8e;
     position: relative;
@@ -47,7 +51,7 @@ body{
 }
 .user-pic{
     position: relative;
-    top: 16px;
+    top: 10px;
     left: 10px;
     height: 30px;
     width: 30px;
@@ -64,7 +68,7 @@ body{
     color: #dadada;
     font-size: 14px;
     position: relative;
-    top: 16px;
+    top: 10px;
     left: 15px;
     color: white;
 }

@@ -5,6 +5,7 @@
   Time: 15:50
   To change this template use File | Settings | File Templates.
 --%>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="styles/story-overlay.css" rel="stylesheet">
 
@@ -25,7 +26,7 @@
       <div class="content">
         <img id="story-content" src="images/royal%20enfield2.jpg" class="img-responsive" onmousedown="clStoryOverlay.pause()" onmouseup="clStoryOverlay.play()">
         <div class="about">
-          <div>My best princes in this world is my daughter</div>
+          <p>My best princes in this world is my daughter</p>
         </div>
       </div>
 

@@ -27,8 +27,9 @@ var netBook = new function() {
             document.getElementById("top-icons").style.display = "block";
             document.getElementById("user-profile-box").style.display = "block";
             document.getElementById("app-profile-box").style.display = "none";
-            document.getElementById("user-profile-box").style.top = "12px";
-            document.getElementById("app-title").style.display = "block";
+            //document.getElementById("user-profile-box").style.top = "12px";
+            document.getElementById("user-profile-box").style.top = "0px";
+            //document.getElementById("app-title").style.display = "block";
             document.getElementById("search").style.display = "none";
 
             document.getElementById("setting-dropdown").style.display="none";
@@ -44,7 +45,7 @@ var netBook = new function() {
             document.getElementById("search").style.display = "block";
             document.getElementById("user-profile-box").style.display = "none";
             document.getElementById("app-profile-box").style.display = "block";
-            document.getElementById("app-title").style.display = "none";
+            //document.getElementById("app-title").style.display = "none";
             document.getElementById("setting-link").href="#";
             document.getElementById("notification-link").href="#";
             document.getElementById("chat-link").href="Chat.jsp";
@@ -107,7 +108,7 @@ var netBook = new function() {
 
 
         if(window.innerWidth <= 770 ){
-            document.getElementById("content-bar").style.top="47px";
+            document.getElementById("content-bar").style.top="30px";
             document.getElementById("content-1").style.display="none";
             document.getElementById("content-2").style.display="block";
             document.getElementById("content-3").style.display="none";
@@ -132,6 +133,8 @@ var netBook = new function() {
             document.getElementById("content-3").style.display="block";
 
         }
+
+
         this.applyResponsiveUploadBox("home");
 
     }

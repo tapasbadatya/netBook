@@ -56,7 +56,7 @@
 
             <div class="actions" align="left">
               <ul>
-                <li><i id="like" class="fa fa-heart-o" onclick="Post.likeToggle('like')"></i></li>
+                <li><i id="like" class="fa fa-heart-o" onclick="Post.likeToggle(this)"></i></li>
                 <li><i class="fa fa-comment-o"></i></li>
                 <li class="share"><i class="material-icons mi-icon" data-toggle="modal" data-target="#share-post">call_made</i>
                   <span class="social-share">
