@@ -146,19 +146,6 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="modal fade" id="searchModal" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body" style="height: 35px">
-
-            <input type="text" id="search-input" class="search-input" placeholder="Search friends by name or email..."/>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div id="setting-dropdown" class="setting-dropdown uns">
     <div align="center"><i class="fa fa-caret-up"></i></div>
