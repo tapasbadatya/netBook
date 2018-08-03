@@ -92,14 +92,14 @@
 
 <div class="modal fade" id="show-profile-modal" role="dialog" align="center">
   <div class="modal-dialog">
-    <div class="modal-content" style="width: 80%">
-      <div class="modal-body">
+    <div class="modal-content" style="width: 80%; border-radius: 0px">
+      <div class="modal-body" style="padding: 0px;padding-bottom: 15px">
         <%--<img src="images/tapas.jpg" class="img-responsive">--%>
         <div class="card">
           <img src="images/tapas.jpg" style="width:100%">
           <div class="container" align="left">
-            <h5><b style="color: <%=color%>;position: relative;left: -16px">Tapas Kumar Badatya</b></h5>
-            <b style="position: relative;left: -16px"> with DAD's love </b>
+            <h5><b style="color: <%=color%>;position: relative;left: 5px">Tapas Kumar Badatya</b></h5>
+            <b style="position: relative;left: 5px"> with DAD's love </b>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title" style="float: left"><i class="fa fa-edit" style="color: #D9534F"></i> Start your day</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="padding-bottom: 0px">
         <div class="row" style="position: relative;top: -15px">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div>

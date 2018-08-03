@@ -27,6 +27,7 @@
   String contextPath =  pageContext.getServletContext().getRealPath("/");
   String prefixPath = contextPath.split("out")[0];
 
+
   File file = new File(prefixPath+"web/nBUsers/tapas@gmail.com");
   String[] dirs = file.list();
 %>

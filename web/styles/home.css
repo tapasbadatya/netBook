@@ -1,7 +1,7 @@
 
 body{
     /*background: rgba(248, 76, 132, 0.17);*/
-
+    overflow-y: auto;
 }
 
 
