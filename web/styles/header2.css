@@ -1,0 +1,112 @@
+.header{
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0px 5px 15px #eaeaea;
+}
+.header-right{
+    border-radius: 100px 0px 0px 100px;
+    background-color: #0077B5;
+    height: 50px;
+    position: relative;
+}
+.profile-pic{
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    float: right;
+    border: 2px solid #cccccc;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.profile-pic:hover{
+}
+.header-menu{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: auto;
+    top: 12px;
+}
+.header-menu div{
+    float: left;
+    position: relative;
+    cursor: default;
+}
+.header-menu div i{
+    font-size: 20px;
+}
+.header-menu div span{
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+    font-weight: bold;
+}
+.header-menu div .material-icons{
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+.header-menu .search{
+    width: 10%;
+    color: #d6e7fc;
+    position: relative;
+    left: 3px;
+
+}
+.header-menu .home{
+    width: 20%;
+    color: #d6e7fc;
+
+}
+.header-menu .chat{
+    width: 20%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+
+}
+.header-menu .chat i{
+    font-size: 18px;
+
+}
+.header-menu .profile{
+    width: 20%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+}
+.header-menu .profile i{
+    font-size: 18px;
+}
+
+.header-menu .setting{
+    width: 20%;
+    color: #d6e7fc;
+
+}
+.header-menu .more{
+    width: 10%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+}
+.header-menu .search:hover{
+    color: white;
+}
+.header-menu .home:hover{
+    color: white;
+}
+.header-menu .chat:hover{
+    color: white;
+}
+.header-menu .profile:hover{
+    color: white;
+}
+.header-menu .setting:hover{
+    color: white;
+}
+.header-menu .more:hover{
+    color: white;
+}
