@@ -1,0 +1,282 @@
+
+.header{
+    border-bottom: 1px solid #eaeaea;
+    /*box-shadow: 0px 5px 15px #eaeaea;*/
+    /*border-bottom: 1px solid #eaeaea;*/
+}
+.header-right{
+    border-radius: 100px 0px 0px 100px;
+    background-color: #0077B5;
+    height: 50px;
+    position: relative;
+}
+.profile-pic{
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    left: 5px;
+    float: right;
+    border: 2px solid #0092d6;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.profile-pic:hover{
+}
+.header-menu{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: hidden;
+    top: 12px;
+}
+.header-menu div{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.header-menu div i{
+    font-size: 20px;
+}
+.header-menu div span{
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+    font-weight: bold;
+}
+.header-menu div .material-icons{
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+.header-menu .search{
+    width: 10%;
+    color: #d6e7fc;
+    position: relative;
+    left: 3px;
+
+}
+.header-menu .home{
+    width: 20%;
+    color: #d6e7fc;
+
+}
+.header-menu .chat{
+    width: 20%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+
+}
+.header-menu .chat i{
+    font-size: 18px;
+
+}
+.header-menu .profile{
+    width: 20%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+}
+.header-menu .profile i{
+    font-size: 18px;
+}
+
+.header-menu .setting{
+    width: 20%;
+    color: #d6e7fc;
+
+}
+.header-menu .more{
+    width: 10%;
+    color: #d6e7fc;
+    position: relative;
+    top: 2px;
+}
+.header-menu .search:hover{
+    color: white;
+}
+.header-menu .home:hover{
+    color: white;
+}
+.header-menu .chat:hover{
+    color: white;
+}
+.header-menu .profile:hover{
+    color: white;
+}
+.header-menu .setting:hover{
+    color: white;
+}
+.header-menu .more:hover{
+    color: white;
+}
+
+.header-bottom{
+    height: 35px;
+    border-bottom: 1px solid #eaeaea;
+
+}
+.menu{
+    position: relative;
+    top: 7px;
+    font-size: 18px;
+
+}
+#menu{
+    width: 30%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: -30%;
+    border-right: 1px solid #cccccc;
+    z-index: 2;
+    transition: 0.2s;
+    /*box-shadow: 3px 0px 10px #eaeaea;*/
+}
+#bg-menu{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+.title{
+    padding: 12px;
+    position: relative;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+.title .name{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    color: #333333;
+
+}
+#menu .content{
+    overflow-y: auto;
+    height: 92%;
+}
+
+.search-chat-frnd{
+    position: relative;
+    top: 5px;
+}
+.search-chat-frnd i{
+    float: left;
+    position: relative;
+    top: 3px;
+}
+
+.search-chat-frnd input{
+    border: none;
+    color: black;
+    float: right;
+    width: 90%;
+}
+.upload-box{
+    position: relative;
+    height: 100%;
+}
+.upload-box div{
+    height: 100%;
+    padding-top: 6px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.upload-box div span{
+    margin-left: 5px;
+}
+.upload-box div:hover{
+    background-color: #ededed;
+}
+.upload-box .write-text{
+    float: left;
+    width: 33%;
+}
+.upload-box .upload-gallery{
+    float: left;
+    width: 34%;
+}
+.upload-box .upload-file{
+    float: left;
+    width: 33%;
+}
+
+
+
+.side-menus{
+    margin-left: 0px;
+}
+.side-menu{
+    font-weight: bold;
+    padding: 8px;
+}
+.side-menu:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+.side-menu span{
+    position: relative;
+    left: 5px;
+}
+.side-menu .note{
+    margin-left: 2px;
+}
+.side-menu .news{
+    margin-left: 2px;
+}
+
+.side-menu .fa-icon{
+    font-size: 14px;
+}
+.side-menu .mi-icon{
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+}
+
+
+.third-column-box{
+    position: relative;
+    height: 100%;
+}
+.third-column-box div{
+    height: 100%;
+    padding-top: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #505050;
+}
+
+.third-column-box div:hover{
+    background-color: #ededed;
+}
+.third-column-box .make-friend{
+    float: left;
+    width: 33%;
+}
+.third-column-box .my-story{
+    float: left;
+    width: 34%;
+}
+.third-column-box .my-dir{
+    float: left;
+    width: 33%;
+}
+.third-column-box div .material-icons{
+    font-size: 22px;
+}
+.third-column-box div .fa{
+    font-size: 18px;
+    margin-top: 1px;
+}

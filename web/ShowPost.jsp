@@ -28,7 +28,7 @@
 <body>
 
 
-  <div id="show-posts" class="show-posts uns" align="center">
+  <div id="show-posts" class="show-posts myScrollbar uns" align="center">
 
     <div class="post-box">
       <div class="post-profile">
@@ -71,7 +71,7 @@
       </div>
     </div>
 
-    <div style="height: 10px"></div>
+    <%--<div style="height: 10px"></div>--%>
 
     <div class="post-box">
       <div class="post-profile">
@@ -114,7 +114,7 @@
 
     </div>
 
-    <div style="height: 10px"></div>
+    <%--<div style="height: 10px"></div>--%>
 
     <div class="post-box">
       <div class="post-profile">
@@ -156,7 +156,7 @@
       </div>
     </div>
 
-    <div style="height: 10px"></div>
+    <%--<div style="height: 10px"></div>--%>
 
     <div class="post-box">
       <div class="post-profile">
@@ -198,7 +198,7 @@
       </div>
     </div>
 
-    <div style="height: 10px"></div>
+    <%--<div style="height: 10px"></div>--%>
 
 
 
@@ -243,7 +243,7 @@
       </div>
     </div>
 
-    <div style="height: 10px"></div>
+    <%--<div style="height: 10px"></div>--%>
 
   </div>
 

@@ -13,26 +13,26 @@
     padding-bottom: 8px;
 
     /*border: 1px solid #999999;*/
-    border: 1px solid #cccccc;
-    /*border: 1px solid white;*/
-    /*border-bottom: 1px solid #cccccc;*/
+    /*border: 1px solid #cccccc;*/
+    border: 1px solid white;
+    border-bottom: 1px solid #cccccc;
 
     background: white;
     transition: 0.3s;
     border-radius: 3px;
-    box-shadow: 1px 1px 6px #cccccc;
+    /*box-shadow: 1px 1px 6px #cccccc;*/
 
 
 }
-.post-box:hover{
-    /*text-shadow: 2px 2px 5px red;*/
-    /*border-left: 1px solid #cccccc;*/
+/*.post-box:hover{
+    /!*text-shadow: 2px 2px 5px red;*!/
+    /!*border-left: 1px solid #cccccc;*!/
     box-shadow: 5px 5px 10px #cccccc;
-    /*border: 1px solid #7b7b7b;*/
+    /!*border: 1px solid #7b7b7b;*!/
     border-radius: 3px;
 
 
-}
+}*/
 .post-box .post-profile{
     position: relative;
     float: left;
@@ -288,4 +288,39 @@
     bottom: 0;
     background-color: rgba(0,0,0,0.7);
     z-index: 2;
+}
+
+
+
+
+.myScrollbar
+{
+    margin-right: 0px;
+    float: right;
+    width: 100%;
+
+}
+
+
+.myScrollbar::-webkit-scrollbar-track
+{
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    /*background-color: #F5F5F5;*/
+}
+
+.myScrollbar::-webkit-scrollbar
+{
+    width: 0px;
+    /*background-color: #F5F5F5;*/
+}
+
+.myScrollbar::-webkit-scrollbar-thumb
+{
+    background-color: #bbbbbb;
+}
+
+
+.myScrollbar:hover .myScrollbar::-webkit-scrollbar-thumb
+{
+    background-color: #bebebe;
 }

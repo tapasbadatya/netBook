@@ -23,7 +23,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Manas Ranjan</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Manas Ranjan</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Manas Ranjan</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -31,7 +32,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Rajesh Pradhan</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Rajesh Pradhan</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Rajesh Pradhan</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -40,7 +42,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Tushar Panda</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Tushar Panda</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Tushar Panda</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -48,7 +51,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Sourav Sahu</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Sourav Sahu</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Sourav Sahu</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -56,7 +60,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Izzat Kumar</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Izzat Kumar</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Izzat Kumar</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -64,7 +69,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Ashish Raul</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Ashish Raul</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Ashish Raul</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -72,7 +78,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Himanshu Singh</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Himanshu Singh</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Himanshu Singh</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -80,7 +87,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Ravindra Kumar</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Ravindra Kumar</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Ravindra Kumar</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
@@ -88,7 +96,8 @@
     <li>
       <a href="#">
         <div class="friend-box" onclick="Chat.openChatWindow()">
-          <i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Santosh Kumar</span>
+          <%--<i class="fa fa-user-circle"></i><span style="color:<%=textColor%>;position: relative;top: -5px"> Santosh Kumar</span>--%>
+          <i class="fa fa-user-circle"></i><span style="position: relative;top: -5px"> Santosh Kumar</span>
         </div>
       </a>
       <%--<div style="height: 5px"></div>--%>
